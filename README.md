@@ -9,21 +9,28 @@ Estou na área de Desenvolvimento de Software desde 2017 quando fiz Ensino Médi
 ## Meus Projetos
 
 ### Em 2020-1
-Fale sobre o projeto desenvolvido. Apresente a empresa parceira, o problema e a solução entregue pela equipe (mínimo de um parágrafo por item). Recomenda-se o uso de figuras (ou até mesmo vídeos) para ilustrar os principais projetos.
+O projeto TempVerify teve como empresa parceira a propria FATEC que propos a criacao de um sistema de regulamento de temperatura e umidade do ar para proporcional mais conforto ao cliente. Aceitado o desafio, a equipe Hexagono desenvolveu o dispositivo TempVerify que permitia ler a temperatura e umidade do ambiente e regular os mesmos atraves de um dispositivo fisico controlado por aplicativo.
 
-[GIT](https://www.google.com)
+[GIT](https://github.com/cacauisadog/hexagono-fatec) 
+
 
 #### Tecnologias Utilizadas
+-Firebase: Banco de dados não relacional com acesso em nuvem, utilizado para o armazenamento das informações de login dos usuários.
+-Flutter: Framework de código aberto para a linguagem Dart
+-NodeMCU: Plataforma hardware de IoT(internet of Thing, Internet das Coisas) que foi utilizada para a construção do dispositivo em si. Devido a proporção baixa do projeto e a praticidade para conexões de internet, julgamos ser o dial para o desenvolvimento.
+-OneSignal: Ferramenta web que permite notificar dispositivos móveis. A pesar de algumas funcionalidades pagas, os recursos gratuitos permitiram enviar as notificações desejadas aos usuários.
 Apresente brevemente as tecnologias utilizadas. Uma tecnologia por linha. Indique qual a importância de cada tecnologia para o projeto.
 
 #### Contribuições Pessoais
 Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes.
 
 #### Hard Skills
-Apresente as hard skills que você utilizou/desenvolveu durante o projeto e o nível alcançado. Exemplo: CSS - Sei fazer com autonomia
+Firebase - Sei fazer com ajuda
+C++ - Sei fazer com ajuda
 
 #### Soft Skills
-Apresente as soft skills que você utilizou/desenvolveu durante o projeto e em quais situações elas foram fundamentais. 
+Comunicação - Como ingressante na faculdade foi crucial desenvolver minha comunicação com os novos companheiros.
+Adaptabilidade - Desconhecendo muitas das tecnologias necessarias para o projeto, me vi na obrigacao de me adaptar a elas para auxiliar a equipe.
 
 ### Em 2020-1
 Mesmo formato
@@ -38,10 +45,13 @@ Mesmo formato
 Mesmo formato
 
 ## Meus Principais Conhecimentos
+-Análise e Armazenamento de Dados
+-Tecnologia de Chatbot
+-Linguagem Java
 Apresente seus principais conhecimentos. Foque nos conhecimentos que possui maior domínio e que deseja desenvolver durante sua carreira.
 
 ## Contatos
-* [GIT](https://www.git.com)
-* [LinkedIn](https://www.linkedin.com)
+* [GIT](https://github.com/Felipe-Silva2002 | https://github.com/Ffelipe-Ssilva)
+* [LinkedIn](https://www.linkedin.com/in/felipe-silva-13b3b61a0)
 
 
