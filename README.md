@@ -24,7 +24,7 @@ Apresente brevemente as tecnologias utilizadas. Uma tecnologia por linha. Indiqu
 #### Contribuições Pessoais
 Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes.
 ![image](https://user-images.githubusercontent.com/65372142/160295513-6258abab-1582-4c4b-9452-5c780b8ce8ca.png)
-Devido minha familiaridade com Banco de Dados me responsabilizei pela conexão com o banco de dados. Primeiramente deve se inserir os dados de rede do usuarioSSID e senha) para que seja estabelecida a conexão, em seguida, o banco de dados também precisa ser conectado através de seu link e senha e por fim definir o tipo de ligação do DHT11 e o tipo de sensor DHT
+Devido minha familiaridade com Banco de Dados me responsabilizei para auxiliar os responsaveis pela parte de banco de dados atraves de chamadas de voz. Primeiramente deve se inserir os dados de rede do usuarioSSID e senha) para que seja estabelecida a conexão, em seguida, o banco de dados também precisa ser conectado através de seu link e senha e por fim definir o tipo de ligação do DHT11 e o tipo de sensor DHT
 
 
 #### Hard Skills
