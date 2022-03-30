@@ -22,10 +22,9 @@ O projeto TempVerify teve como empresa parceira a propria FATEC que propos a cri
 Apresente brevemente as tecnologias utilizadas. Uma tecnologia por linha. Indique qual a importância de cada tecnologia para o projeto.
 
 #### Contribuições Pessoais
-Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes.
 ![image](https://user-images.githubusercontent.com/65372142/160295513-6258abab-1582-4c4b-9452-5c780b8ce8ca.png)
-Devido minha familiaridade com Banco de Dados me responsabilizei para auxiliar os responsaveis pela parte de banco de dados atraves de chamadas de voz. Primeiramente deve se inserir os dados de rede do usuarioSSID e senha) para que seja estabelecida a conexão, em seguida, o banco de dados também precisa ser conectado através de seu link e senha e por fim definir o tipo de ligação do DHT11 e o tipo de sensor DHT
 
+Devido minha familiaridade com Banco de Dados auxiliei meus colegas de equipe com essa frente. Primeiramente deve se inserir os dados de rede do usuarioSSID e senha) para que seja estabelecida a conexão, em seguida, o banco de dados também precisa ser conectado através de seu link e senha e por fim definir o tipo de ligação do DHT11 e o tipo de sensor DHT. Além do banco de dados também auxiliei com a documentação do projeto.
 
 #### Hard Skills
 Firebase - Sei fazer com ajuda
@@ -51,7 +50,6 @@ Mesmo formato
 -Análise e Armazenamento de Dados
 -Tecnologia de Chatbot
 -Linguagem Java
-Apresente seus principais conhecimentos. Foque nos conhecimentos que possui maior domínio e que deseja desenvolver durante sua carreira.
 
 ## Contatos
 * [GIT](https://github.com/Felipe-Silva2002 | https://github.com/Ffelipe-Ssilva)
