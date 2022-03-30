@@ -9,7 +9,7 @@ Estou na área de Desenvolvimento de Software desde 2017 quando fiz Ensino Médi
 ## Meus Projetos
 
 ### Em 2020-1
-O projeto TempVerify teve como empresa parceira a propria FATEC que propos a criacao de um sistema de regulamento de temperatura e umidade do ar para proporcional mais conforto ao cliente. Aceitado o desafio, a equipe Hexagono desenvolveu o dispositivo TempVerify que permitia ler a temperatura e umidade do ambiente e regular os mesmos atraves de um dispositivo fisico controlado por aplicativo.
+O projeto TempVerify teve como empresa parceira a propria FATEC que propos a criação de um sistema de regulamento de temperatura e umidade do ar para proporcionar mais conforto ao cliente. Aceitado o desafio, a equipe Hexagono desenvolveu o dispositivo TempVerify que permitia ler a temperatura e umidade do ambiente e regular os mesmos através de um dispositivo físico controlado por aplicativo.
 
 [GIT](https://github.com/cacauisadog/hexagono-fatec) 
 
@@ -19,7 +19,6 @@ O projeto TempVerify teve como empresa parceira a propria FATEC que propos a cri
 -Flutter: Framework de código aberto para a linguagem Dart
 -NodeMCU: Plataforma hardware de IoT(internet of Thing, Internet das Coisas) que foi utilizada para a construção do dispositivo em si. Devido a proporção baixa do projeto e a praticidade para conexões de internet, julgamos ser o dial para o desenvolvimento.
 -OneSignal: Ferramenta web que permite notificar dispositivos móveis. A pesar de algumas funcionalidades pagas, os recursos gratuitos permitiram enviar as notificações desejadas aos usuários.
-Apresente brevemente as tecnologias utilizadas. Uma tecnologia por linha. Indique qual a importância de cada tecnologia para o projeto.
 
 #### Contribuições Pessoais
 ![image](https://user-images.githubusercontent.com/65372142/160295513-6258abab-1582-4c4b-9452-5c780b8ce8ca.png)
