@@ -35,6 +35,7 @@ C++ - Sei fazer com ajuda
 
 #### Soft Skills
 Comunicação - Como ingressante na faculdade foi crucial desenvolver minha comunicação com os novos companheiros.
+
 Adaptabilidade - Desconhecendo muitas das tecnologias necessarias para o projeto, me vi na obrigacao de me adaptar a elas para auxiliar a equipe.
 
 ### Em 2020-1
