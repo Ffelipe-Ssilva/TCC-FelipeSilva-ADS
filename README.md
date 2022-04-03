@@ -30,6 +30,7 @@ Devido minha familiaridade com Banco de Dados auxiliei meus colegas de equipe co
 
 #### Hard Skills
 Firebase - Sei fazer com ajuda
+
 C++ - Sei fazer com ajuda
 
 #### Soft Skills
@@ -50,7 +51,9 @@ Mesmo formato
 
 ## Meus Principais Conhecimentos
 -Análise e Armazenamento de Dados
+
 -Tecnologia de Chatbot
+
 -Linguagem Java
 
 ## Contatos
