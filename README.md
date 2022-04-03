@@ -16,8 +16,11 @@ O projeto TempVerify teve como empresa parceira a propria FATEC que propos a cri
 
 #### Tecnologias Utilizadas
 -Firebase: Banco de dados não relacional com acesso em nuvem, utilizado para o armazenamento das informações de login dos usuários.
+
 -Flutter: Framework de código aberto para a linguagem Dart
+
 -NodeMCU: Plataforma hardware de IoT(internet of Thing, Internet das Coisas) que foi utilizada para a construção do dispositivo em si. Devido a proporção baixa do projeto e a praticidade para conexões de internet, julgamos ser o dial para o desenvolvimento.
+
 -OneSignal: Ferramenta web que permite notificar dispositivos móveis. A pesar de algumas funcionalidades pagas, os recursos gratuitos permitiram enviar as notificações desejadas aos usuários.
 
 #### Contribuições Pessoais
