@@ -38,16 +38,41 @@ Comunicação - Como ingressante na faculdade foi crucial desenvolver minha comu
 
 Adaptabilidade - Desconhecendo muitas das tecnologias necessarias para o projeto, me vi na obrigacao de me adaptar a elas para auxiliar a equipe.
 
-### Em 2020-1
-Mesmo formato
-
 ### Em 2020-2
-Mesmo formato
+O projeto do segundo semestre teve como empresa parceira, alem da da propria FATEC, a empresa IACIT que propos um problema real a ser solicionado, no caso, controle e gerenciamento das jornadas de motoristas. O projeto deveria envolver parametrização das informações, controle, acompanhamento e conter relatorios analíticos.
+
+[GIT](https://github.com/PedroSousaLopes/projetoIntegrador) 
+
+
+#### Tecnologias Utilizadas
+-PostgreSQL: Banco de dados relacional, utilizado para o armazenamento das informações dos motoristas, seus veiculos e suas jornadas.
+
+-Java (JDK 14): Linguagem orientada a objeto utlizada para a construção do Back-End do projeto
+
+-Hibernate: Framework ideal para pconstrução de aplicações orientadas a objeto.
+
+#### Contribuições Pessoais
+
+Assim como no primeiro semestre, me foquei na parte de Banco de Dados assim como suas conexões com o Back-End. Ressalta-se, inclusive, que devido a problemas de versionamento, foi necessaria a substituição de uma versão mais recente do PGAdmin(visualizador do PostgreSQL) por uma versão mais antiga para fins de ter a visão apropriada da base de dados.
+
+#### Hard Skills
+Java - Sei fazer com autonomia
+
+PostgreSQL - Sei fazer com ajuda
+
+#### Soft Skills
+Controle das emoções - Devido ao fato de, em determinado ponto do desenvolvimento, termos que refazer variass funcionalidades do aplicativo, foi necessario resiliencia para concertar ditoas funcionalidades a fim de entregar o projeto a tempo.
+
+Gerenciamento do tempo - Mesmo estando envolvido em projetos no estágio, não podia deixar de auxiliar a quipe como fosse necessário.
+
 
 ### Em 2021-1
 Mesmo formato
 
 ### Em 2021-2
+Mesmo formato
+
+### Em 2022-1
 Mesmo formato
 
 ## Meus Principais Conhecimentos
