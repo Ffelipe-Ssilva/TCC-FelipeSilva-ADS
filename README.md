@@ -58,7 +58,7 @@ Assim como no primeiro semestre, me foquei na parte de Banco de Dados assim como
 #### Hard Skills
 Java - Sei fazer com autonomia
 
-PostgreSQL - Sei fazer com ajuda
+PostgreSQL - Sei fazer com autonomia
 
 #### Soft Skills
 Controle das emoções - Devido ao fato de, em determinado ponto do desenvolvimento, termos que refazer variass funcionalidades do aplicativo, foi necessario resiliencia para concertar ditoas funcionalidades a fim de entregar o projeto a tempo.
