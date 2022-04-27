@@ -67,7 +67,7 @@ Gerenciamento do tempo - Mesmo estando envolvido em projetos no estágio, não p
 
 
 ### Em 2021-1
-APIRGBA
+API-RGBA foi o 3o projeto de API em que eu participei. Teve como cliente a empresa Ness Health e como objetivo aperfeiçoar as capacidades técnicas de funcionários. Para isso seriam disponibilizados, na plataforma, diversos treinamentos on-line que
 
 [GIT](https://github.com/giovannialves01/API-RGBA) 
 
