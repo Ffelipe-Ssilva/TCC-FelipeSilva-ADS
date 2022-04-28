@@ -58,16 +58,16 @@ Assim como no primeiro semestre, me foquei na parte de Banco de Dados assim como
 Para que a conexçao seja feita, inicialmente, é necessario declarar as importações (como por exemplo a dependencia sql) e variaveis necessárias(como o usuário, a senha, o caminho do banco e o driver)
 ![image](https://user-images.githubusercontent.com/65372142/165761025-4e11ecdf-7c6b-4b09-bfcd-d65923d20062.png)
 
-A classe "conexao" é responsavel por conectar o projeto ao seu banco de dados, isso e feito atraves da funcao setProperty que utiliza as variaveis anteriormente declradas (caminho, usuario e senha) para conectar ao banco correto
+O método "conexao" é responsavel por conectar o projeto ao seu banco de dados, isso e feito atraves da funcao setProperty que utiliza as variaveis anteriormente declradas (caminho, usuario e senha) para conectar ao banco correto
 ![image](https://user-images.githubusercontent.com/65372142/165764292-89db85b9-1eb6-44ef-be15-dc0a6a13add4.png)
 
-A classe "executaSql" tem a funcao de enviar as queries necessarias para a utilizacao do projeto para o banco, como listar motoristas, realizar cadastros, deletar veiculos e atualizar dados
+O método "executaSql" tem a funcao de enviar as queries necessarias para a utilizacao do projeto para o banco, como listar motoristas, realizar cadastros, deletar veiculos e atualizar dados
 ![image](https://user-images.githubusercontent.com/65372142/165766991-7718c74b-b8cd-42b3-b0f4-346d2e2e8ae7.png)
 
-Por fim, a classe "desconecta" e responsavel por desconectar o projeto do banco de dados
+Por fim, o método "desconecta" e responsavel por desconectar o projeto do banco de dados
 ![image](https://user-images.githubusercontent.com/65372142/165767720-46fd6792-1a6e-472e-9090-9c8f6b110062.png)
 
-Importante ressaltar que todas essas classes estao dentro de um try catch, ou seja, caso haja algum erro na execussao de alguma delas, o erro sera reportado e a execussao cancelada.
+Importante ressaltar que todos esses métodos estao dentro de um try catch, ou seja, caso haja algum erro na execussao de alguma delas, o erro sera reportado e a execussao cancelada.
 
 Além da conexão com o banco de dados, também me responsabilizei por fazer os wireframes do porjeto, que são versões mock up de como a versão final do projeto ira se parecer, essas foram feitas n plataforma Figma. Nas imagens a abaixo é possivel ver o resultado final dos wireframes.
 
@@ -98,7 +98,7 @@ Gerenciamento do tempo - Mesmo estando envolvido em projetos no estágio, não p
 
 
 ### Em 2021-1
-API-RGBA foi o 3o projeto de API em que eu participei. Teve como cliente a empresa Ness Health e como objetivo aperfeiçoar as capacidades técnicas de funcionários. Para isso seriam disponibilizados, na plataforma, diversos treinamentos on-line que
+API-RGBA foi o 3o projeto de API em que eu participei. Teve como cliente a empresa Ness Health e como objetivo aperfeiçoar as capacidades técnicas de funcionários, tendo em vista o grabde aumento na procura de cursos on-line em decorrênciada pandemia. Para isso seriam disponibilizados, na plataforma, diversos treinamentos no qual o funcionário poderia ser designado a estudar.
 
 [GIT](https://github.com/giovannialves01/API-RGBA) 
 
@@ -113,9 +113,10 @@ CSS3 - Linguagem que permitiu criar os visuais que apareceriam
 
 HTML5 - Linguagem utilizada para codificar as telas do Front-End
 
-Java -
+-PostgreSQL: Banco de dados relacional, utilizado para o armazenamento das informações dos cursos, alunos e professores.
 
-PostgreSQL - Banco
+-Java: Linguagem orientada a objeto utlizada para a construção do Back-End do projeto
+
 
 #### Contribuições Pessoais
 Nessa API me responsabilizei pela criacao das classes modelo
