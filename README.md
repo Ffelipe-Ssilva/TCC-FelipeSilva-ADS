@@ -55,6 +55,37 @@ O projeto do segundo semestre teve como empresa parceira, alem da propria FATEC,
 
 Assim como no primeiro semestre, me foquei na parte de Banco de Dados assim como suas conexões com o Back-End. Ressalta-se, inclusive, que devido a problemas de versionamento, foi necessaria a substituição de uma versão mais recente do PGAdmin(visualizador do PostgreSQL) por uma versão mais antiga para fins de ter a visão apropriada da base de dados.
 
+Para que a conexçao seja feita, inicialmente, é necessario declarar as importações (como por exemplo a dependencia sql) e variaveis necessárias(como o usuário, a senha, o caminho do banco e o driver)
+![image](https://user-images.githubusercontent.com/65372142/165761025-4e11ecdf-7c6b-4b09-bfcd-d65923d20062.png)
+
+A classe "conexao" é responsavel por conectar o projeto ao seu banco de dados, isso e feito atraves da funcao setProperty que utiliza as variaveis anteriormente declradas (caminho, usuario e senha) para conectar ao banco correto
+![image](https://user-images.githubusercontent.com/65372142/165764292-89db85b9-1eb6-44ef-be15-dc0a6a13add4.png)
+
+A classe "executaSql" tem a funcao de enviar as queries necessarias para a utilizacao do projeto para o banco, como listar motoristas, realizar cadastros, deletar veiculos e atualizar dados
+![image](https://user-images.githubusercontent.com/65372142/165766991-7718c74b-b8cd-42b3-b0f4-346d2e2e8ae7.png)
+
+Por fim, a classe "desconecta" e responsavel por desconectar o projeto do banco de dados
+![image](https://user-images.githubusercontent.com/65372142/165767720-46fd6792-1a6e-472e-9090-9c8f6b110062.png)
+
+Importante ressaltar que todas essas classes estao dentro de um try catch, ou seja, caso haja algum erro na execussao de alguma delas, o erro sera reportado e a execussao cancelada.
+
+Além da conexão com o banco de dados, também me responsabilizei por fazer os wireframes do porjeto, que são versões mock up de como a versão final do projeto ira se parecer, essas foram feitas n plataforma Figma. Nas imagens a abaixo é possivel ver o resultado final dos wireframes.
+
+Login de usuario ou Admin:
+![image](https://user-images.githubusercontent.com/65372142/165770392-46346885-f8b8-4e16-8be3-65f1a8fa8ece.png)
+
+Login do Admin:
+![image](https://user-images.githubusercontent.com/65372142/165770464-e55d9cbc-bd79-4523-8008-f97fb43c676f.png)
+
+Login do Usuario:
+![image](https://user-images.githubusercontent.com/65372142/165770547-fc8d4e41-7953-4831-8835-ce6c3ea9ab87.png)
+
+Cadastro de Usuarios:
+![image](https://user-images.githubusercontent.com/65372142/165770605-dc854867-70c9-4689-af2b-2cc5f46e0705.png)
+
+Cadastro de Veiculos:
+![image](https://user-images.githubusercontent.com/65372142/165770646-ab405505-1b20-48b7-9ed8-11dc5bc43e2a.png)
+
 #### Hard Skills
 Java - Sei fazer com autonomia
 
@@ -63,7 +94,7 @@ PostgreSQL - Sei fazer com autonomia
 #### Soft Skills
 Controle das emoções - Devido ao fato de, em determinado ponto do desenvolvimento, termos que refazer variass funcionalidades do aplicativo, foi necessario resiliencia para concertar ditoas funcionalidades a fim de entregar o projeto a tempo.
 
-Gerenciamento do tempo - Mesmo estando envolvido em projetos no estágio, não podia deixar de auxiliar a quipe como fosse necessário.
+Gerenciamento do tempo - Mesmo estando envolvido em projetos no estágio, não podia deixar de auxiliar a equipe como fosse necessário.
 
 
 ### Em 2021-1
@@ -73,23 +104,27 @@ API-RGBA foi o 3o projeto de API em que eu participei. Teve como cliente a empre
 
 
 #### Tecnologias Utilizadas
--HTML5: Banco de dados não relacional com acesso em nuvem, utilizado para o armazenamento das informações de login dos usuários.
 
--CSS3: Framework de código aberto para a linguagem Dart
+Javascript -
 
--NodeMCU: Plataforma hardware de IoT(internet of Thing, Internet das Coisas) que foi utilizada para a construção do dispositivo em si. Devido a proporção baixa do projeto e a praticidade para conexões de internet, julgamos ser o dial para o desenvolvimento.
+Spring -
 
--OneSignal: Ferramenta web que permite notificar dispositivos móveis. A pesar de algumas funcionalidades pagas, os recursos gratuitos permitiram enviar as notificações desejadas aos usuários.
+CSS3 -
+
+HTML5 -
+
+Java -
+
+PostgreSQL -
 
 #### Contribuições Pessoais
-![image](https://user-images.githubusercontent.com/65372142/160295513-6258abab-1582-4c4b-9452-5c780b8ce8ca.png)
-
-Devido minha familiaridade com Banco de Dados auxiliei meus colegas de equipe com essa frente. Primeiramente deve se inserir os dados de rede do usuarioSSID e senha) para que seja estabelecida a conexão, em seguida, o banco de dados também precisa ser conectado através de seu link e senha e por fim definir o tipo de ligação do DHT11 e o tipo de sensor DHT. Além do banco de dados também auxiliei com a documentação do projeto.
+Nessa API me responsabilizei pela criacao das classes modelo
 
 #### Hard Skills
 Java - Sei fazer com autonomia
 
 PostgreSQL - Sei fazer com autonomia
+
 
 #### Soft Skills
 Humildade - Em diversos momentos me deparei com situacoes onde eu deveria usar metodos que eu nao conhecia e me vi na necessidade de pedir ajuda aos demais colegar de equipe.
