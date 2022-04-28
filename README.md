@@ -39,17 +39,17 @@ Comunicação - Como ingressante na faculdade foi crucial desenvolver minha comu
 Adaptabilidade - Desconhecendo muitas das tecnologias necessarias para o projeto, me vi na obrigacao de me adaptar a elas para auxiliar a equipe.
 
 ### Em 2020-2
-O projeto do segundo semestre teve como empresa parceira, alem da da propria FATEC, a empresa IACIT que propos um problema real a ser solicionado, no caso, controle e gerenciamento das jornadas de motoristas. O projeto deveria envolver parametrização das informações, controle, acompanhamento e conter relatorios analíticos.
+O projeto do segundo semestre teve como empresa parceira, alem da propria FATEC, a IACIT que propos um problema real que precisava ser solicionado, desenvolver um programa de controle e gerenciamento das jornadas de seus motoristas. O projeto deveria envolver a parametrização das informações, controle, acompanhamento e conter relatorios analíticos.
 
-[GIT](https://github.com/PedroSousaLopes/projetoIntegrador) 
+[GIT](https://github.com/Vitor-y/Projeto-Integrador) 
 
 
 #### Tecnologias Utilizadas
--PostgreSQL: Banco de dados relacional, utilizado para o armazenamento das informações dos motoristas, seus veiculos e suas jornadas.
+-PostgreSQL 9.5: Banco de dados relacional, utilizado para o armazenamento das informações dos motoristas, seus veiculos e suas jornadas.
 
--Java (JDK 14): Linguagem orientada a objeto utlizada para a construção do Back-End do projeto
+-Java 11: Linguagem orientada a objeto utlizada para a construção do Back-End do projeto
 
--Hibernate: Framework ideal para pconstrução de aplicações orientadas a objeto.
+-NetBeans: IDE que suporta diversas linguagens diferentes, incluindo Java. Elegemos essa por considerela ideal para a execucao do projeto
 
 #### Contribuições Pessoais
 
@@ -73,9 +73,9 @@ API-RGBA foi o 3o projeto de API em que eu participei. Teve como cliente a empre
 
 
 #### Tecnologias Utilizadas
--Firebase: Banco de dados não relacional com acesso em nuvem, utilizado para o armazenamento das informações de login dos usuários.
+-HTML5: Banco de dados não relacional com acesso em nuvem, utilizado para o armazenamento das informações de login dos usuários.
 
--Flutter: Framework de código aberto para a linguagem Dart
+-CSS3: Framework de código aberto para a linguagem Dart
 
 -NodeMCU: Plataforma hardware de IoT(internet of Thing, Internet das Coisas) que foi utilizada para a construção do dispositivo em si. Devido a proporção baixa do projeto e a praticidade para conexões de internet, julgamos ser o dial para o desenvolvimento.
 
@@ -87,14 +87,14 @@ API-RGBA foi o 3o projeto de API em que eu participei. Teve como cliente a empre
 Devido minha familiaridade com Banco de Dados auxiliei meus colegas de equipe com essa frente. Primeiramente deve se inserir os dados de rede do usuarioSSID e senha) para que seja estabelecida a conexão, em seguida, o banco de dados também precisa ser conectado através de seu link e senha e por fim definir o tipo de ligação do DHT11 e o tipo de sensor DHT. Além do banco de dados também auxiliei com a documentação do projeto.
 
 #### Hard Skills
-Firebase - Sei fazer com ajuda
+Java - Sei fazer com autonomia
 
-C++ - Sei fazer com ajuda
+PostgreSQL - Sei fazer com autonomia
 
 #### Soft Skills
-Comunicação - Como ingressante na faculdade foi crucial desenvolver minha comunicação com os novos companheiros.
+Humildade - Em diversos momentos me deparei com situacoes onde eu deveria usar metodos que eu nao conhecia e me vi na necessidade de pedir ajuda aos demais colegar de equipe.
 
-Adaptabilidade - Desconhecendo muitas das tecnologias necessarias para o projeto, me vi na obrigacao de me adaptar a elas para auxiliar a equipe.
+Comunicacao Interpessoal - Por me encontrar varias vezes necessitando de ajuda, era necessario comunicar propriamente minhas dificuldades e garantir que eu ja tinha feito tudo o que estava ao meu alcance para resolver antes de pedir auxilio.
 
 ### Em 2021-2
 Mesmo formato
