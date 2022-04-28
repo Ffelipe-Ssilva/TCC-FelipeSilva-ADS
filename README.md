@@ -107,15 +107,15 @@ API-RGBA foi o 3o projeto de API em que eu participei. Teve como cliente a empre
 
 Javascript -
 
-Spring -
+Spring - Inicializador utilizado para criar projeto já com várias dependências que urilizariamos 
 
-CSS3 -
+CSS3 - Linguagem que permitiu criar os visuais que apareceriam
 
-HTML5 -
+HTML5 - Linguagem utilizada para codificar as telas do Front-End
 
 Java -
 
-PostgreSQL -
+PostgreSQL - Banco
 
 #### Contribuições Pessoais
 Nessa API me responsabilizei pela criacao das classes modelo
