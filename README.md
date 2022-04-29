@@ -91,6 +91,8 @@ Java - Sei fazer com autonomia
 
 PostgreSQL - Sei fazer com autonomia
 
+Figma - Sei fazer com ajuda
+
 #### Soft Skills
 Controle das emoções - Devido ao fato de, em determinado ponto do desenvolvimento, termos que refazer variass funcionalidades do aplicativo, foi necessario resiliencia para concertar ditoas funcionalidades a fim de entregar o projeto a tempo.
 
@@ -105,11 +107,11 @@ API-RGBA foi o 3o projeto de API em que eu participei. Teve como cliente a empre
 
 #### Tecnologias Utilizadas
 
-Javascript -
+Javascript - Linguagem utilizada em paginas web para codificar funcoes como mensagens de alerta que foram utilizadas para funcionalidades adicionais no front
 
-Spring - Inicializador utilizado para criar projeto já com várias dependências que urilizariamos 
+Spring - Inicializador utilizado para criar projeto já com várias dependências que utilizariamos
 
-CSS3 - Linguagem que permitiu criar os visuais que apareceriam
+CSS3 - Linguagem que permitiu criar os visuais que apareceriam na tela para o usuario
 
 HTML5 - Linguagem utilizada para codificar as telas do Front-End
 
@@ -119,9 +121,29 @@ HTML5 - Linguagem utilizada para codificar as telas do Front-End
 
 
 #### Contribuições Pessoais
-Nessa API me responsabilizei pela criacao das classes modelo
+Nessa API eu participei de 4 funcionalidades principais.
 
-#### Hard Skills
+1-Criacao da pagina de Log
+No Front-End...
+  -Foi preciso adicionar o script do log em sua respectiva pagina para que seus métodos pudessem ser utilizados.
+  -Log significa registrar quaisquer acoes que afetaram o sistema com data e hora dessas acoes.
+  -Para isso servira a div log, exibit as atividades e modificações feitas por usuários assim como quando eles fizeram isso.
+
+![image](https://user-images.githubusercontent.com/65372142/165944922-a3a50234-f663-46a0-8afc-26851bca08f2.png)
+
+No Back-End...
+  -Um arquivo Java Script foi criado para armazenar os atributos de um log como resposta e entidades.
+  -Um laco for ira analisar todas as logs existentes e alimentar as variáveis com as informações encontradas através do text contente, que, a partir do texto           determinado, trará a informação a frente deles.
+  -A sessão de valor, por sua vez, trará o identificador de cada informação.
+
+![image](https://user-images.githubusercontent.com/65372142/165949979-5dadc17d-22bf-40f8-be9c-96d95d8531d7.png)
+
+  -O script adicionado no front possui os métodos de criação e importação dos conteúdos das logs com base no banco de dados, isso foi feito através de um constructor.
+  -Caso o valor não seja encontrado, dados genéricos são enviados.
+  -O constructor utilizara dos métodos get para obter as informações, enquanto as set serão utilizadas para a criação das logs.
+
+
+#### Hard Skills 
 Java - Sei fazer com autonomia
 
 PostgreSQL - Sei fazer com autonomia
