@@ -125,16 +125,6 @@ Nessa API eu participei de 4 funcionalidades principais.
 
 1-Criacao da pagina de Log
 
-No Front-End...
-
--Foi preciso adicionar o script do log em sua respectiva pagina para que seus métodos pudessem ser utilizados.
-
--Log significa registrar quaisquer acoes que afetaram o sistema com data e hora dessas acoes.
- 
- -Para isso servira a div log, exibit as atividades e modificações feitas por usuários assim como quando eles fizeram isso.
-
-![image](https://user-images.githubusercontent.com/65372142/166115026-b121f3a7-e4ea-487d-9cd6-604cb3734f09.png)
-
 
 No Back-End...
 
@@ -144,11 +134,39 @@ No Back-End...
  
 -A sessão de valor, por sua vez, trará o identificador de cada informação.
 
+-O script adicionado no front possui os métodos de criação e importação dos conteúdos das logs com base no banco de dados, isso foi feito através de um constructor.
+  
+-Caso o valor não seja encontrado, dados genéricos são enviados.
+  
+-O constructor utilizara dos métodos get para obter as informações, enquanto as set serão utilizadas para a criação das logs.
+
 ![image](https://user-images.githubusercontent.com/65372142/165949979-5dadc17d-22bf-40f8-be9c-96d95d8531d7.png)
 
-  -O script adicionado no front possui os métodos de criação e importação dos conteúdos das logs com base no banco de dados, isso foi feito através de um constructor.
-  -Caso o valor não seja encontrado, dados genéricos são enviados.
-  -O constructor utilizara dos métodos get para obter as informações, enquanto as set serão utilizadas para a criação das logs.
+
+No Front-End...
+
+-Foi preciso adicionar o script do log em sua respectiva pagina para que seus métodos pudessem ser utilizados.
+
+-Log significa registrar quaisquer acoes que afetaram o sistema com data e hora dessas acoes.
+ 
+-Para isso servira a div log, exibit as atividades e modificações feitas por usuários assim como quando eles fizeram isso.
+
+![image](https://user-images.githubusercontent.com/65372142/166115026-b121f3a7-e4ea-487d-9cd6-604cb3734f09.png)
+
+-Enfim, pode-se adicionar o serviço de log na tela de administrador
+
+-Para isso, inicialmente, é necessario chamar o script do log.js
+
+![image](https://user-images.githubusercontent.com/65372142/166115553-8aebbf33-8b7e-4873-a5f7-50e71bfc4ebb.png)
+
+-Com o script declarado, pode-se informar o usuário que os Logs estão disponíveis a baixo e criar a div que exibira as logs
+
+![image](https://user-images.githubusercontent.com/65372142/166115738-0c71ce2d-2b99-4f22-bed0-fef4c10ff7c6.png)
+
+
+
+
+
 
 2-
 
