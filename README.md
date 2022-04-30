@@ -124,17 +124,24 @@ HTML5 - Linguagem utilizada para codificar as telas do Front-End
 Nessa API eu participei de 4 funcionalidades principais.
 
 1-Criacao da pagina de Log
+
 No Front-End...
-  -Foi preciso adicionar o script do log em sua respectiva pagina para que seus métodos pudessem ser utilizados.
-  -Log significa registrar quaisquer acoes que afetaram o sistema com data e hora dessas acoes.
-  -Para isso servira a div log, exibit as atividades e modificações feitas por usuários assim como quando eles fizeram isso.
+
+-Foi preciso adicionar o script do log em sua respectiva pagina para que seus métodos pudessem ser utilizados.
+
+-Log significa registrar quaisquer acoes que afetaram o sistema com data e hora dessas acoes.
+ 
+ -Para isso servira a div log, exibit as atividades e modificações feitas por usuários assim como quando eles fizeram isso.
 
 ![image](https://user-images.githubusercontent.com/65372142/165944922-a3a50234-f663-46a0-8afc-26851bca08f2.png)
 
 No Back-End...
-  -Um arquivo Java Script foi criado para armazenar os atributos de um log como resposta e entidades.
-  -Um laco for ira analisar todas as logs existentes e alimentar as variáveis com as informações encontradas através do text contente, que, a partir do texto           determinado, trará a informação a frente deles.
-  -A sessão de valor, por sua vez, trará o identificador de cada informação.
+
+-Um arquivo Java Script foi criado para armazenar os atributos de um log como resposta e entidades.
+
+-Um laco for ira analisar todas as logs existentes e alimentar as variáveis com as informações encontradas através do text contente, que, a partir do texto           determinado, trará a informação a frente deles.
+ 
+-A sessão de valor, por sua vez, trará o identificador de cada informação.
 
 ![image](https://user-images.githubusercontent.com/65372142/165949979-5dadc17d-22bf-40f8-be9c-96d95d8531d7.png)
 
