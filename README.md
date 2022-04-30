@@ -167,23 +167,30 @@ No Front-End...
 
 -Como o chatbot se tratava de um serviço externo, bastava com que fosse adicionada, nas paginas necessárias, a estrutura de código apropriada para "chama-lo". As páginas onde o chatbot se encontra são as paginas de...
 
+
 -Turmas do Tutor:
 ![image](https://user-images.githubusercontent.com/65372142/166123641-427be038-767f-41fc-96a7-54e9cc3f38d4.png)
+
 
 -Página do Aluno:
 ![image](https://user-images.githubusercontent.com/65372142/166123660-8f5bd985-68cd-451e-9570-7fdb2408c4cf.png)
 
+
 -Página Minha Conta:
 ![image](https://user-images.githubusercontent.com/65372142/166123679-ba449e3b-e92f-4eea-b505-b17ff2548ae0.png)
+
 
 -Página Meus Cursos:
 ![image](https://user-images.githubusercontent.com/65372142/166123693-989b9fd1-9228-439e-8438-86f6f6ba68ad.png)
 
+
 -Página Gestor:
 ![image](https://user-images.githubusercontent.com/65372142/166123815-87ecbb3e-6536-47ee-b981-cd4425399425.png)
 
+
 -Página de Detalhes do Curso:
 ![image](https://user-images.githubusercontent.com/65372142/166123823-5506488f-fe50-4790-b8c5-545605c7b69d.png)
+
 
 -Catálogo de Cursos:
 ![image](https://user-images.githubusercontent.com/65372142/166123828-1cd9e396-1e2b-4b82-8088-ba950e7d4a7e.png)
