@@ -142,6 +142,30 @@ No Back-End...
   -Caso o valor não seja encontrado, dados genéricos são enviados.
   -O constructor utilizara dos métodos get para obter as informações, enquanto as set serão utilizadas para a criação das logs.
 
+2-
+3-Atualização do Header
+Para que essa funcionalidade do header fosse implementada, inicialmente, seria necessario criar seu estilo na página de css, ou seja, tecnologia utilizada para criação dos visuais na tela. Estilos esses que incluem, mas não se limitam a tamanho do header (width: 300px; height: 300px;), margem do texto do título (margin-left: 20px;) etc.
+
+![image](https://user-images.githubusercontent.com/65372142/166114727-908be52e-c9cd-40be-8c38-68fd8c6a00b3.png)
+
+Por fim, para verificar a funcionalidade do header, esse foi adicionado a página de notícias assim como um texto base.
+
+![image](https://user-images.githubusercontent.com/65372142/166114796-d7d31999-9928-4ef1-a09e-54c54dd29f05.png)
+
+4-Criação da página de notícias
+
+Por fim, para a programação da página onde o usuário encontraria as notícias da plataforma, incialmente deveria se criar a celula head com informações como o titulo da página e conjunto de carateres a serem utilizados.
+
+![image](https://user-images.githubusercontent.com/65372142/166113537-445cb863-ec1b-4376-b179-c849764d3c66.png)
+
+O body a seguir, assim como suas divs, foi criado como placeholder para que o grupo pudesse ter noção de onde cada funcionalidade se encontraria na versão fiinal. Nele, é possivel ver a definição do estilo das imagens, como tamanho da borda (border: 1px solid gray), margem entre outros elementos da tela (margin: 10px) e tamanho dos elementos (height: 150px; width)
+
+![image](https://user-images.githubusercontent.com/65372142/166114136-6a372596-8d9e-45c1-876b-3ee4c8a323b0.png)
+
+O restante da página contém comentarios que mais tarde serviram para incorporar outras funcionalidades na página como lista de cursos, Bibliotecas, Questionários etc.
+
+![image](https://user-images.githubusercontent.com/65372142/166114186-3dc7119f-bce6-445f-9d55-a681e6dce881.png)
+
 
 #### Hard Skills 
 Java - Sei fazer com autonomia
