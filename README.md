@@ -133,7 +133,8 @@ No Front-End...
  
  -Para isso servira a div log, exibit as atividades e modificações feitas por usuários assim como quando eles fizeram isso.
 
-![image](https://user-images.githubusercontent.com/65372142/165944922-a3a50234-f663-46a0-8afc-26851bca08f2.png)
+![image](https://user-images.githubusercontent.com/65372142/166115026-b121f3a7-e4ea-487d-9cd6-604cb3734f09.png)
+
 
 No Back-End...
 
