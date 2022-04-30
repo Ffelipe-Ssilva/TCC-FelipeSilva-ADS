@@ -151,6 +151,7 @@ No Back-End...
   -O constructor utilizara dos métodos get para obter as informações, enquanto as set serão utilizadas para a criação das logs.
 
 2-
+
 3-Atualização do Header
 Para que essa funcionalidade do header fosse implementada, inicialmente, seria necessario criar seu estilo na página de css, ou seja, tecnologia utilizada para criação dos visuais na tela. Estilos esses que incluem, mas não se limitam a tamanho do header (width: 300px; height: 300px;), margem do texto do título (margin-left: 20px;) etc.
 
