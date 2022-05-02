@@ -222,7 +222,7 @@ O body a seguir, assim como suas divs, foi criado como placeholder para que o gr
 
 ![image](https://user-images.githubusercontent.com/65372142/166114136-6a372596-8d9e-45c1-876b-3ee4c8a323b0.png)
 
-O restante da página contém comentários que mais tarde serviram para incorporar outras funcionalidades na página como lista de cursos, bibliotecas, Qqestionários etc.
+O restante da página contém comentários que mais tarde serviram para incorporar outras funcionalidades na página como lista de cursos, bibliotecas, questionários etc.
 
 ![image](https://user-images.githubusercontent.com/65372142/166114186-3dc7119f-bce6-445f-9d55-a681e6dce881.png)
 
