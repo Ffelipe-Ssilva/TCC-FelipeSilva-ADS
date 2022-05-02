@@ -55,7 +55,7 @@ O projeto do segundo semestre teve como empresa parceira, além da própria FATE
 
 Assim como no primeiro semestre, participei parte de Banco de Dados assim como suas conexões com o Back-End. Ressalta-se, inclusive, que devido a problemas de versionamento, foi necessária a substituição de uma versão mais recente do PGAdmin(visualizador do PostgreSQL) por uma versão mais antiga para fins de ter a visão apropriada da base de dados.
 
-Para que a conexçao seja feita, inicialmente, é necessário declarar as importações (como por exemplo a dependência SQL) e variáveis necessárias(como o usuário, a senha, o caminho do banco e o driver)
+Para que a conexão seja feita, inicialmente, é necessário declarar as importações (como por exemplo a dependência SQL) e variáveis necessárias(como o usuário, a senha, o caminho do banco e o driver)
 ![image](https://user-images.githubusercontent.com/65372142/165761025-4e11ecdf-7c6b-4b09-bfcd-d65923d20062.png)
 
 O método "conexao" é responsável por conectar o projeto ao seu banco de dados, isso e feito através da função setProperty que utiliza as variáveis anteriormente declaradas (caminho, usuario e senha) para conectar ao banco correto.
