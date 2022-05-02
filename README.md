@@ -107,13 +107,13 @@ API-RGBA foi o 3º projeto de API em que eu participei. Teve como cliente a empr
 
 #### Tecnologias Utilizadas
 
-Javascript - Linguagem utilizada em páginas web para codificar funções como mensagens de alerta que foram utilizadas para funcionalidades adicionais no front.
+-Javascript: Linguagem utilizada em páginas web para codificar funções como mensagens de alerta que foram utilizadas para funcionalidades adicionais no front.
 
-Spring - Inicializador utilizado para criar projeto já com várias dependências que utilizaríamos.
+-Spring: Inicializador utilizado para criar projeto já com várias dependências que utilizaríamos.
 
-CSS3 - Linguagem que permitiu criar os visuais que apareceriam na tela para o usuário.
+-CSS3: Linguagem que permitiu criar os visuais que apareceriam na tela para o usuário.
 
-HTML5 - Linguagem utilizada para codificar as telas do Front-End.
+-HTML5: Linguagem utilizada para codificar as telas do Front-End.
 
 -PostgreSQL: Banco de dados relacional, utilizado para o armazenamento das informações dos cursos, alunos e professores.
 
