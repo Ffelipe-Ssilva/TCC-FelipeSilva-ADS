@@ -129,7 +129,7 @@ No Back-End...
 
 -Um arquivo Java Script foi criado para armazenar os atributos de um log como resposta e entidades.
 
--Um laco for ira analisar todas as logs existentes e alimentar as variáveis com as informações encontradas através do textcontent, que, a partir do texto determinado, trará a informação a frente deles.
+-Um laço for irá analisar todas as logs existentes e alimentar as variáveis com as informações encontradas através do textcontent, que, a partir do texto determinado, trará a informação a frente deles.
  
 -A sessão de valor, por sua vez, trará o identificador de cada informação.
 
