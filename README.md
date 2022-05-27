@@ -13,6 +13,8 @@ O projeto TempVerify teve como empresa parceira a própria FATEC que propôs a c
 
 [GIT](https://github.com/cacauisadog/hexagono-fatec) 
 
+![image](https://user-images.githubusercontent.com/65372142/170793931-6b5f0daf-20ab-4338-9723-9eb0a28978e6.png)
+
 
 #### Tecnologias Utilizadas
 -Firebase: Banco de dados não relacional com acesso em nuvem, utilizado para o armazenamento das informações de login dos usuários.
@@ -42,6 +44,7 @@ O projeto do segundo semestre teve como empresa parceira, além da própria FATE
 
 [GIT](https://github.com/Vitor-y/Projeto-Integrador) 
 
+![image](https://user-images.githubusercontent.com/65372142/170794024-b59ee095-e5bf-4a32-8af3-e31f09e06bcd.png)
 
 #### Tecnologias Utilizadas
 -PostgreSQL 9.5: Banco de dados relacional, utilizado para o armazenamento das informações dos motoristas, seus veículos e suas jornadas.
@@ -175,22 +178,38 @@ Humildade - Em diversos momentos me deparei com situações onde eu deveria usar
 Comunicação Interpessoal - Por me encontrar varias vezes necessitando de ajuda, era necessário comunicar propriamente minhas dificuldades e garantir que eu já tinha feito tudo o que estava ao meu alcance para resolver antes de pedir auxílio.
 
 ### Em 2021-2
-O quarto API teve como parceira a Empresa Brasileira de Aeronutica - EMBRAER. Nosso objetivo era criar um sistema de organização de seus arquivos e permitir com que esses fossem pesquisados através de palavras chaves, ja que a empresa necessitava de melhor organização desses arquivos assim como sua padronização.
+O quarto API teve como parceira a Empresa Brasileira de Aeronutica - EMBRAER. O cliente enfrentava dificuldades com seu sistema de armazenamento de arquivos pois esses deveriam ter nomes e armazenamentos padronizados. Tendo isso em vista, a euqipe Sirius desenvolveu um aplicativo web onde o usuário poderia fazer upload dos arquivos(desde que toda a formatação oficial fosse seguida), armazena-los e permitir com que o download desses fosse feito posteriormente.
 
 [GIT](https://github.com/giovannialves01/Sirius) 
 
+![image](https://user-images.githubusercontent.com/65372142/170794184-daf477d0-35b6-4731-aa43-00088d7e2071.png)
+
 Tecnologias Utilizadas
--Java
--Javascript
--HTML
--Springboot
--Postgre
+-Java: Utilizada para a programação do backend
+-Javascript: Utilizado para pequenas operações no front end como exibição de avisos
+-HTML: Linguagem ppara criação das telas do projeto
+-Springboot: Inicializados do projeto em formato Maven
+-Postgre: Banco de dados utilizado para armazenar informações sobre os documentos
 
 Contribuições Pessoais
 Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes.
 -Teste Estrutural:
+
 -Conversão para PDF:
--Confirmação de nome dos documentos: Durante o processo de upload dos documentos, inclui um codigo que analisa cada parte do nome do documento, caso ão obedeça as padronizações mencionadas, o upload é cancelado e o usuário é informado de que deve arrumar o nome do documento
+
+-Confirmação de nome dos documentos: Durante o processo de upload dos documentos, inclui um codigo que analisa cada parte do nome do documento, caso ão obedeça as padronizações mencionadas, o upload é cancelado e o usuário é informado de que deve arrumar o nome do documento.
+A padronização do nome do documento funciona da seguinte forma:
+
+Nome: Nesse momento o controller do upload de arquivos verifica se o nome possui 8 caracteres, sendo que os 3 primeiros devem conter apenas letras de A a Z, o quarto caractere deve ser um hífen e os 4 caracteres restantes devem ser apenas números de 0 a 9
+
+Section: Controller analiza se esse cibtitui de letras ou números, apenas isso é o suficiente para aprovação.
+
+Subsection: É feita uma análise para saber se este constitui apenas de números, caso seja, é aprovado.
+
+Bloco: É feita uma análise para saber se este constitui apenas de números, caso seja, é aprovado.
+
+Todos esse métodos possuem a propria variável de aprovação que pode ser verdadeira ou falsa. Caso algum dos elementos do nome do documento não esteja na padronização, sua respectiva variavel sera atribuida o valor falso o que enviará uma mensagem de erro para o front-end, mensagem essa que informará o usuario que as informações que inseriu estão incorretas. Se não houver nenhuma reprovação o arquivo é armazenado e o usuário é informado que a a operação foi um sucesso.
+
 -Notificação de sucesso ou falha:
 
 Hard Skills
