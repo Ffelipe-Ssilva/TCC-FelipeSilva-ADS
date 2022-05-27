@@ -24,7 +24,6 @@ O projeto TempVerify teve como empresa parceira a própria FATEC que propôs a c
 -OneSignal: Ferramenta web que permite notificar dispositivos móveis. A pesar de algumas funcionalidades pagas, os recursos gratuitos permitiram enviar as notificações desejadas aos usuários.
 
 #### Contribuições Pessoais
-![image](https://user-images.githubusercontent.com/65372142/160295513-6258abab-1582-4c4b-9452-5c780b8ce8ca.png)
 
 Devido minha familiaridade com Banco de Dados auxiliei meus colegas de equipe com essa frente. Primeiramente deve se inserir os dados de rede do usuarioSSID e senha) para que seja estabelecida a conexão, em seguida, o banco de dados também precisa ser conectado através de seu link e senha e por fim definir o tipo de ligação do DHT11 e o tipo de sensor DHT. Além do banco de dados também auxiliei com a documentação do projeto.
 
@@ -56,35 +55,18 @@ O projeto do segundo semestre teve como empresa parceira, além da própria FATE
 Assim como no primeiro semestre, participei parte de Banco de Dados assim como suas conexões com o Back-End. Ressalta-se, inclusive, que devido a problemas de versionamento, foi necessária a substituição de uma versão mais recente do PGAdmin(visualizador do PostgreSQL) por uma versão mais antiga para fins de ter a visão apropriada da base de dados.
 
 Para que a conexão seja feita, inicialmente, é necessário declarar as importações (como por exemplo a dependência SQL) e variáveis necessárias(como o usuário, a senha, o caminho do banco e o driver)
-![image](https://user-images.githubusercontent.com/65372142/165761025-4e11ecdf-7c6b-4b09-bfcd-d65923d20062.png)
 
 O método "conexao" é responsável por conectar o projeto ao seu banco de dados, isso e feito através da função setProperty que utiliza as variáveis anteriormente declaradas (caminho, usuario e senha) para conectar ao banco correto.
-![image](https://user-images.githubusercontent.com/65372142/165764292-89db85b9-1eb6-44ef-be15-dc0a6a13add4.png)
 
 O método "executaSql" tem a função de enviar as queries necessárias para a utilização do projeto para o banco, como listar motoristas, realizar cadastros, deletar veículos e atualizar dados.
-![image](https://user-images.githubusercontent.com/65372142/165766991-7718c74b-b8cd-42b3-b0f4-346d2e2e8ae7.png)
 
 Por fim, o método "desconecta" e responsavel por desconectar o projeto do banco de dados.
-![image](https://user-images.githubusercontent.com/65372142/165767720-46fd6792-1a6e-472e-9090-9c8f6b110062.png)
 
 Importante ressaltar que todos esses métodos estão dentro de um try-catch, ou seja, caso haja algum erro em alguma delas, o erro sera reportado e a execução cancelada.
 
-Além da conexão com o banco de dados, também participei da criação dos wireframes do projeto, que são versões mock-up de como a versão final do projeto ira se parecer, essas foram feitas na plataforma Figma. Nas imagens a abaixo é possível ver o resultado final dos wireframes.
+Além da conexão com o banco de dados, também participei da criação dos wireframes do projeto, que são versões mock-up de como a versão final do projeto ira se parecer, essas foram feitas na plataforma Figma.
 
-Login de Usuário ou Admin:
 ![image](https://user-images.githubusercontent.com/65372142/165770392-46346885-f8b8-4e16-8be3-65f1a8fa8ece.png)
-
-Login do Admin:
-![image](https://user-images.githubusercontent.com/65372142/165770464-e55d9cbc-bd79-4523-8008-f97fb43c676f.png)
-
-Login do Usuário:
-![image](https://user-images.githubusercontent.com/65372142/165770547-fc8d4e41-7953-4831-8835-ce6c3ea9ab87.png)
-
-Cadastro de Usuários:
-![image](https://user-images.githubusercontent.com/65372142/165770605-dc854867-70c9-4689-af2b-2cc5f46e0705.png)
-
-Cadastro de Veículos:
-![image](https://user-images.githubusercontent.com/65372142/165770646-ab405505-1b20-48b7-9ed8-11dc5bc43e2a.png)
 
 #### Hard Skills
 Java - Sei fazer com autonomia.
@@ -139,8 +121,6 @@ No Back-End...
   
 -O constructor utilizara dos métodos get para obter as informações, enquanto as set serão utilizadas para a criação das logs.
 
-![image](https://user-images.githubusercontent.com/65372142/165949979-5dadc17d-22bf-40f8-be9c-96d95d8531d7.png)
-
 
 No Front-End...
 
@@ -150,82 +130,38 @@ No Front-End...
  
 -Para isso servira a div log, exibit as atividades e modificações feitas por usuários assim como quando eles fizeram isso.
 
-![image](https://user-images.githubusercontent.com/65372142/166115026-b121f3a7-e4ea-487d-9cd6-604cb3734f09.png)
-
 -Enfim, pode-se adicionar o serviço de log na tela de administrador.
 
 -Para isso, inicialmente, é preciso chamar o script do log.js.
 
-![image](https://user-images.githubusercontent.com/65372142/166115553-8aebbf33-8b7e-4873-a5f7-50e71bfc4ebb.png)
-
 -Com o script declarado, pode-se informar o usuário que os Logs estão disponíveis a baixo e criar a div que exibirá as logs.
-
-![image](https://user-images.githubusercontent.com/65372142/166115738-0c71ce2d-2b99-4f22-bed0-fef4c10ff7c6.png)
 
 
 2-Adição do Chatbot
 
 -Como o chatbot se tratava de um serviço externo, bastava com que fosse adicionada, nas paginas necessárias, a estrutura de código apropriada para "chama-lo". As páginas onde o chatbot se encontra são as paginas de...
 
-
--Turmas do Tutor:
-
-![image](https://user-images.githubusercontent.com/65372142/166123641-427be038-767f-41fc-96a7-54e9cc3f38d4.png)
-
-
--Página do Aluno:
-
-![image](https://user-images.githubusercontent.com/65372142/166123660-8f5bd985-68cd-451e-9570-7fdb2408c4cf.png)
-
-
--Página Minha Conta:
-
-![image](https://user-images.githubusercontent.com/65372142/166123679-ba449e3b-e92f-4eea-b505-b17ff2548ae0.png)
-
-
--Página Meus Cursos:
-
-![image](https://user-images.githubusercontent.com/65372142/166123693-989b9fd1-9228-439e-8438-86f6f6ba68ad.png)
-
-
--Página Gestor:
-
-![image](https://user-images.githubusercontent.com/65372142/166123815-87ecbb3e-6536-47ee-b981-cd4425399425.png)
-
-
--Página de Detalhes do Curso:
-
-![image](https://user-images.githubusercontent.com/65372142/166123823-5506488f-fe50-4790-b8c5-545605c7b69d.png)
-
-
--Catálogo de Cursos:
-
-![image](https://user-images.githubusercontent.com/65372142/166123828-1cd9e396-1e2b-4b82-8088-ba950e7d4a7e.png)
+-Turmas do Tutor
+-Página do Aluno
+-Página Minha Conta
+-Página Meus Cursos
+-Página Gestor
+-Página de Detalhes do Curso
+-Catálogo de Cursos
 
 
 3-Atualização do Header
 Para que essa funcionalidade do header fosse implementada, inicialmente, devia-se criar seu estilo na página de css, ou seja, tecnologia utilizada para criação dos visuais na tela. Estilos esses que incluem, mas não se limitam a tamanho do header (width: 300px; height: 300px;), margem do texto do título (margin-left: 20px;) etc.
 
-![image](https://user-images.githubusercontent.com/65372142/166114727-908be52e-c9cd-40be-8c38-68fd8c6a00b3.png)
-
 Por fim, para verificar a funcionalidade do header, esse foi adicionado a página de notícias assim como um texto base.
-
-![image](https://user-images.githubusercontent.com/65372142/166114796-d7d31999-9928-4ef1-a09e-54c54dd29f05.png)
 
 4-Criação da página de notícias
 
 Por fim, para a programação da página onde o usuário encontraria as notícias da plataforma, deveria-se criar a celula head com informações como o título da página e conjunto de caracteres a serem utilizados.
 
-![image](https://user-images.githubusercontent.com/65372142/166113537-445cb863-ec1b-4376-b179-c849764d3c66.png)
-
-O body a seguir, assim como suas divs, foi criado como placeholder para que o grupo pudesse ter noção de onde cada funcionalidade se encontraria na versão final. Nele, é possível ver a definição do estilo das imagens, como tamanho da borda (border: 1px solid gray), margem entre outros elementos da tela (margin: 10px) e tamanho dos elementos (height: 150px; width).
-
-![image](https://user-images.githubusercontent.com/65372142/166114136-6a372596-8d9e-45c1-876b-3ee4c8a323b0.png)
+O body das novidades, assim como suas divs, foi criado como placeholder para que o grupo pudesse ter noção de onde cada funcionalidade se encontraria na versão final. Nele, é possível ver a definição do estilo das imagens, como tamanho da borda (border: 1px solid gray), margem entre outros elementos da tela (margin: 10px) e tamanho dos elementos (height: 150px; width).
 
 O restante da página contém comentários que mais tarde serviram para incorporar outras funcionalidades na página como lista de cursos, bibliotecas, questionários etc.
-
-![image](https://user-images.githubusercontent.com/65372142/166114186-3dc7119f-bce6-445f-9d55-a681e6dce881.png)
-
 
 #### Hard Skills 
 Java - Sei fazer com autonomia.
@@ -239,10 +175,35 @@ Humildade - Em diversos momentos me deparei com situações onde eu deveria usar
 Comunicação Interpessoal - Por me encontrar varias vezes necessitando de ajuda, era necessário comunicar propriamente minhas dificuldades e garantir que eu já tinha feito tudo o que estava ao meu alcance para resolver antes de pedir auxílio.
 
 ### Em 2021-2
-Mesmo formato
+O quarto API teve como parceira a Empresa Brasileira de Aeronutica - EMBRAER. Nosso objetivo era criar um sistema de organização de seus arquivos e permitir com que esses fossem pesquisados através de palavras chaves, ja que a empresa necessitava de melhor organização desses arquivos assim como sua padronização.
+
+[GIT](https://github.com/giovannialves01/Sirius) 
+
+Tecnologias Utilizadas
+-Java
+-Javascript
+-HTML
+-Springboot
+-Postgre
+
+Contribuições Pessoais
+Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes.
+-Teste Estrutural:
+-Conversão para PDF:
+-Confirmação de nome dos documentos: Durante o processo de upload dos documentos, inclui um codigo que analisa cada parte do nome do documento, caso ão obedeça as padronizações mencionadas, o upload é cancelado e o usuário é informado de que deve arrumar o nome do documento
+-Notificação de sucesso ou falha:
+
+Hard Skills
+Apresente as hard skills que você utilizou/desenvolveu durante o projeto e o nível alcançado. Exemplo: CSS - Sei fazer com autonomia
+
+Soft Skills
+Apresente as soft skills que você utilizou/desenvolveu durante o projeto e em quais situações elas foram fundamentais.
 
 ### Em 2022-1
 Mesmo formato
+
+### Em 2022-2
+Mesmo formato 
 
 ## Meus Principais Conhecimentos
 -Análise e Armazenamento de Dados.
