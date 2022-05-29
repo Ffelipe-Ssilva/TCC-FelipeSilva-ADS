@@ -184,7 +184,8 @@ O quarto API teve como parceira a Empresa Brasileira de Aeronutica - EMBRAER. O 
 
 ![image](https://user-images.githubusercontent.com/65372142/170794184-daf477d0-35b6-4731-aa43-00088d7e2071.png)
 
-Tecnologias Utilizadas
+Tecnologias Utilizadas:
+
 -Java: Utilizada para a programação do backend
 -Javascript: Utilizado para pequenas operações no front end como exibição de avisos
 -HTML: Linguagem ppara criação das telas do projeto
@@ -192,17 +193,15 @@ Tecnologias Utilizadas
 -Postgre: Banco de dados utilizado para armazenar informações sobre os documentos
 
 Contribuições Pessoais
-Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes.
--Teste Estrutural:
 
 -Conversão para PDF:
 
--Confirmação de nome dos documentos: Durante o processo de upload dos documentos, inclui um codigo que analisa cada parte do nome do documento, caso ão obedeça as padronizações mencionadas, o upload é cancelado e o usuário é informado de que deve arrumar o nome do documento.
+-Confirmação de nome dos documentos: Durante o processo de upload dos documentos, inclui um codigo que analisa cada parte do nome do documento, caso não obedeça as padronizações mencionadas, o upload é cancelado e o usuário é informado de que deve arrumar o nome do documento.
 A padronização do nome do documento funciona da seguinte forma:
 
 Nome: Nesse momento o controller do upload de arquivos verifica se o nome possui 8 caracteres, sendo que os 3 primeiros devem conter apenas letras de A a Z, o quarto caractere deve ser um hífen e os 4 caracteres restantes devem ser apenas números de 0 a 9
 
-Section: Controller analiza se esse cibtitui de letras ou números, apenas isso é o suficiente para aprovação.
+Section: Controller analiza se esse constitui de letras ou números, apenas isso é o suficiente para aprovação.
 
 Subsection: É feita uma análise para saber se este constitui apenas de números, caso seja, é aprovado.
 
@@ -210,7 +209,15 @@ Bloco: É feita uma análise para saber se este constitui apenas de números, ca
 
 Todos esse métodos possuem a propria variável de aprovação que pode ser verdadeira ou falsa. Caso algum dos elementos do nome do documento não esteja na padronização, sua respectiva variavel sera atribuida o valor falso o que enviará uma mensagem de erro para o front-end, mensagem essa que informará o usuario que as informações que inseriu estão incorretas. Se não houver nenhuma reprovação o arquivo é armazenado e o usuário é informado que a a operação foi um sucesso.
 
+-Teste Estrutural:
+A parte de teste estrutural foi feita como validação para a matéria de Testes de Software, onde era necessário que uma classe de teste fosse utilizada para testar uma funcionalidade do projeto.
+
+Para isso, resolvi testar a função de validação do nome do documento da classe FileUploadController(comentada a pouco), ja que essa funcionalidae foi criada por mim. A classe de teste envia para a classe de upload valores de nomes de documentos, de cada nome era esperado sucesso ou falhar. Exemplo:
+ Caso o nome "Abc-1234-a1-00-11" fosse aceito, o teste era um sucesso, pois esse tipo de formato no nome do documento é o correto.
+ Caso o nome "FFFF-333-a1-aa-bb" fosse recusado, o teste era um sucesso pois esse nome está fora da formatação.
+
 -Notificação de sucesso ou falha:
+ Na tela de upload do aplicativo, há um script esperando uma resposta do controller do upload de arquivos. Caso o upload seja um sucesso, o controller enviará a informação "ok" ou "error" através do model. Recebido esse model, o front analisará qual das opções recebeu, caso receba ok, informará, através de uma notificação que o upload foi um sucesso, do contrário, finromará que ocorreu um erro e informará que o usuário deve verificar o nome do documento e verificar que deve condizer com a formatação oficial
 
 Hard Skills
 Apresente as hard skills que você utilizou/desenvolveu durante o projeto e o nível alcançado. Exemplo: CSS - Sei fazer com autonomia
