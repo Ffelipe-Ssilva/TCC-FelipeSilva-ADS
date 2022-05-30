@@ -195,6 +195,7 @@ Tecnologias Utilizadas:
 Contribuições Pessoais
 
 -Conversão para PDF:
+A conversao para pdf e necessaria tendo em vista a formatacao oficial do nosso cliente, ou sej,a caso fosse feito upload de um arquivo docx, este deveria estar disponivel no formato pdf. O metodo para a conversao foi adicionado no sistema de download de arquivo pois como o sistema de conversao utilizaod nao substitui, apenas cria uma copia no formato correto, foi julgado ideal incluir-lo no sistema de download para economizar espaco de disco. Quando o download e feito, todos os documentos que possuem o nome desejado sao convertidos para pdf atraves de um metodo que cria copias em pdf desses arquivos na pasta desejada, e entao esses mesmos arquivos sao unificados em um. Dessa forma, idependente do formato que o usuario faca upload do documento, sempre que for necessario seu dwonload, este estara disponivel no formato pdf.
 
 -Confirmação de nome dos documentos: Durante o processo de upload dos documentos, inclui um codigo que analisa cada parte do nome do documento, caso não obedeça as padronizações mencionadas, o upload é cancelado e o usuário é informado de que deve arrumar o nome do documento.
 A padronização do nome do documento funciona da seguinte forma:
