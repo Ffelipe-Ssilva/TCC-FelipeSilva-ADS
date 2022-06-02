@@ -221,10 +221,13 @@ Para isso, resolvi testar a função de validação do nome do documento da clas
  Na tela de upload do aplicativo, há um script esperando uma resposta do controller do upload de arquivos. Caso o upload seja um sucesso, o controller enviará a informação "ok" ou "error" através do model. Recebido esse model, o front analisará qual das opções recebeu, caso receba ok, informará, através de uma notificação que o upload foi um sucesso, do contrário, finromará que ocorreu um erro e informará que o usuário deve verificar o nome do documento e verificar que deve condizer com a formatação oficial
 
 Hard Skills
-Apresente as hard skills que você utilizou/desenvolveu durante o projeto e o nível alcançado. Exemplo: CSS - Sei fazer com autonomia
+PostgreSQL
+
 
 Soft Skills
-Apresente as soft skills que você utilizou/desenvolveu durante o projeto e em quais situações elas foram fundamentais.
+Perseverança: como não conseguimos validar as 2 primeiras entregas, precisamos nos dedicar ao máximo para validar as 2 últimas.
+
+
 
 ### Em 2022-1
 Mesmo formato
@@ -234,13 +237,14 @@ Mesmo formato
 
 ## Meus Principais Conhecimentos
 -Análise e Armazenamento de Dados.
+Área da tecnologia do qual sempre tive afinidade e também muitos contatos que poderiam me auxiliar. Matéria na qual mais me destaquei durante o Médio Técnico.
 
 -Tecnologia de Chatbot.
+Projeto do qual mais me destaquei no meu primeiro estágio. Requereu muito do meu conhecimento de banco de dados para construção de árvores de decisão. Apresentei, na FATEC, uma palestra com esse tema, inclusive.
 
--Linguagem Java.
+-Linguagem Java. 
+Primeira linguagem nova que eu aprendi após 3 anos de C# e que me foi muito útil em diversos projetos da faculdade.
 
 ## Contatos
 * [GIT](https://github.com/Felipe-Silva2002 | https://github.com/Ffelipe-Ssilva)
 * [LinkedIn](https://www.linkedin.com/in/felipe-silva-13b3b61a0)
-
-
