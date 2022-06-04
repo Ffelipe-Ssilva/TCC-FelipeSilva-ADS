@@ -222,7 +222,7 @@ Para isso, resolvi testar a função de validação do nome do documento da clas
 
 -Notificação de sucesso ou falha:
 
- Na tela de upload do aplicativo, há um script esperando uma resposta do controller do upload de arquivos. Caso o upload seja um sucesso, o controller enviará a informação "ok" ou "error" através do model. Recebido esse model, o front analisará qual das opções recebeu, caso receba ok, informará, através de uma notificação que o upload foi um sucesso, do contrário, finromará que ocorreu um erro e informará que o usuário deve verificar o nome do documento e verificar que deve condizer com a formatação oficial.
+ Na tela de upload do aplicativo, há um script esperando uma resposta do controller do upload de arquivos. Caso o upload seja um sucesso, o controller enviará a informação "ok" ou "error" através do model. Recebido esse model, o front analisará qual das opções recebeu, caso receba ok, informará, através de uma notificação que o upload foi um sucesso, do contrário, finromará que ocorreu um erro e informará que o usuário deve verificar o nome do documento e verificar que deve condizer com a formatPara ação oficial.
 
 Hard Skills
 
@@ -237,7 +237,18 @@ Perseverança: como não conseguimos validar as 2 primeiras entregas, precisamos
 
 
 ### Em 2022-1
-Mesmo formato
+O primeiro projeto de API a ser feito apos EAD teve como empresa parceira, novamente, a Embraer. A necessidade dessa vez envovlia o armazenamento de documentos chamados FOLs(documentos referentes as aeronaves adquiridas pelo usuario) assim como notificacao dos usuarios do aplicativo que novos documentos haviam sido criados. Para isso nossa equipe desenvolveu o aplicativo Brisk, que permitiria com que os usuarios visualizassem as FOLs de qualquer uma de suas aeronaves e ainda geraria relatorios de quantos usuarios vizualizaram esses documentos.
+
+[GIT]([https://github.com/AirghostTeamAPI]) 
+
+![image](https://user-images.githubusercontent.com/65372142/171982689-6b84e7a9-3944-43dc-9a27-0ab96c1e2935.png)
+
+Tecnologias Utilizadas
+Javascript: Utilizado para a construcao do Front-End, ou seja, as telas que o usuario utilizaria para navegar pelo applicativo
+Typescript: Construcao do Back-End com todas as requisicoes de cadastros, notificacoes e movimentacao dos documentos
+Node.js: Permitiu execussao dos codigos em javascript idependente se estivesse no navegador web, muito util tendo em vista que deveria ser executavel tanto na pagina web quanto no aplicativo
+React Native: Estrutura principal de construcao das telas
+MongoDB: Banco de dados utilizado para armazenamento das informacoes de usuarios e FOLs
 
 ### Em 2022-2
 Mesmo formato 
