@@ -259,6 +259,10 @@ O login foi feito na classe index.js da pasta login do nosso back end. Primeiram
 Leitura de PDF
 A pagina de exibicao de pdf possui um metodo de retorno que exibira a FOL que o usuario deseja, para isso e necessario retornar uma pagina especifica de um documento
 
+Com o uso de funcoes Axies serao retornados opcoes de mostrar as todas as FOLs de um usuario assim como filtrar de acordo com sua categoria ou palavras chaves referentes a seu conteudo
+
+Finalmente, a a funcao return servira para retornar o PDF na pagina da FOL desejada pelo usuario no for
+
 Grafico de Alcance das FOLs
 O grafico foi feita armazenando, em variaveis, informacoes do banco de dados obtidas atraves de uma rota do axios, variaveis essas que se tratam de quantidade de usuarios notificados da criacao de uma FOL e usuarios que leram essa notificacao. Essas, em seguida, sao enviadas para um retorno em js que construira um grafico com informando a quantidade de usuarios que leram a informacao e a quantidade de usuarios que nao leram(feito atraves da diferenca entre total de usuarios que receberam a notificacao e o total de usuarios que leram)
 
