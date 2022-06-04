@@ -160,7 +160,7 @@ Por fim, para verificar a funcionalidade do header, esse foi adicionado a págin
 
 4-Criação da página de notícias
 
-Por fim, para a programação da página onde o usuário encontraria as notícias da plataforma, deveria-se criar a celula head com informações como o título da página e conjunto de caracteres a serem utilizados.
+Por fim, para a programação da página onde o usuário encontraria as notícias da plataforma, deveria criar a celula head com informações como o título da página e conjunto de caracteres a serem utilizados.
 
 O body das novidades, assim como suas divs, foi criado como placeholder para que o grupo pudesse ter noção de onde cada funcionalidade se encontraria na versão final. Nele, é possível ver a definição do estilo das imagens, como tamanho da borda (border: 1px solid gray), margem entre outros elementos da tela (margin: 10px) e tamanho dos elementos (height: 150px; width).
 
@@ -173,12 +173,12 @@ PostgreSQL - Sei fazer com autonomia.
 
 
 #### Soft Skills
-Humildade - Em diversos momentos me deparei com situações onde eu deveria usar métodos que eu não conhecia e me vi na necessidade de pedir ajuda aos demais colegar de equipe.
+Humildade - Em diversos momentos me deparei com situações onde eu deveria usar métodos que eu não conhecia e me vi na necessidade de pedir ajuda aos demais colegas de equipe.
 
 Comunicação Interpessoal - Por me encontrar varias vezes necessitando de ajuda, era necessário comunicar propriamente minhas dificuldades e garantir que eu já tinha feito tudo o que estava ao meu alcance para resolver antes de pedir auxílio.
 
 ### Em 2021-2
-O quarto API teve como parceira a Empresa Brasileira de Aeronutica - EMBRAER. O cliente enfrentava dificuldades com seu sistema de armazenamento de arquivos pois esses deveriam ter nomes e armazenamentos padronizados. Tendo isso em vista, a euqipe Sirius desenvolveu um aplicativo web onde o usuário poderia fazer upload dos arquivos(desde que toda a formatação oficial fosse seguida), armazena-los e permitir com que o download desses fosse feito posteriormente.
+O quarto API teve como parceira a Empresa Brasileira de Aeronáutica - EMBRAER. O cliente enfrentava dificuldades com seu sistema de armazenamento de arquivos pois esses deveriam ter nomes e armazenamentos padronizados. Tendo isso em vista, a equipe Sirius desenvolveu um aplicativo web onde o usuário poderia fazer upload dos arquivos(desde que toda a formatação oficial fosse seguida), armazena-los e permitir com que o download desses fosse feito posteriormente.
 
 [GIT](https://github.com/giovannialves01/Sirius) 
 
@@ -186,9 +186,9 @@ O quarto API teve como parceira a Empresa Brasileira de Aeronutica - EMBRAER. O 
 
 Tecnologias Utilizadas:
 
--Java: Utilizada para a programação do backend
--Javascript: Utilizado para pequenas operações no front end como exibição de avisos
--HTML: Linguagem ppara criação das telas do projeto
+-Java: Utilizada para a programação do back-end
+-Javascript: Utilizado para pequenas operações no front-end como exibição de avisos
+-HTML: Linguagem para criação das telas do projeto
 -Springboot: Inicializados do projeto em formato Maven
 -Postgre: Banco de dados utilizado para armazenar informações sobre os documentos
 
@@ -196,75 +196,75 @@ Contribuições Pessoais
 
 -Conversão para PDF:
 
-A conversao para pdf e necessaria tendo em vista a formatacao oficial do nosso cliente, ou sej,a caso fosse feito upload de um arquivo docx, este deveria estar disponivel no formato pdf. O metodo para a conversao foi adicionado no sistema de download de arquivo pois como o sistema de conversao utilizaod nao substitui, apenas cria uma copia no formato correto, foi julgado ideal incluir-lo no sistema de download para economizar espaco de disco. Quando o download e feito, todos os documentos que possuem o nome desejado sao convertidos para pdf atraves de um metodo que cria copias em pdf desses arquivos na pasta desejada, e entao esses mesmos arquivos sao unificados em um. Dessa forma, idependente do formato que o usuario faca upload do documento, sempre que for necessario seu dwonload, este estara disponivel no formato pdf.
+A conversão para pdf e necessária tendo em vista a formatação oficial do nosso cliente, ou seja, caso fosse feito upload de um arquivo docx, este deveria estar disponível no formato pdf. O método para a conversão foi adicionado no sistema de download de arquivo pois como o sistema de conversão utilizado não substitui, apenas cria uma cópia no formato correto, foi julgado ideal inclui-lo no sistema de download para economizar espaço de disco. Quando o download e feito, todos os documentos que possuem o nome desejado são convertidos para pdf através de um método que cria copias em pdf desses arquivos na pasta desejada, e então esses mesmos arquivos são unificados em um. Dessa forma, independente do formato que o usuário faça upload do documento, sempre que for necessário seu download, este estará disponível no formato pdf.
 
--Confirmação de nome dos documentos: Durante o processo de upload dos documentos, inclui um codigo que analisa cada parte do nome do documento, caso não obedeça as padronizações mencionadas, o upload é cancelado e o usuário é informado de que deve arrumar o nome do documento.
+-Confirmação de nome dos documentos: Durante o processo de upload dos documentos, inclui um código que analisa cada parte do nome do documento, caso não obedeça as padronizações mencionadas, o upload é cancelado e o usuário é informado de que deve arrumar o nome do documento.
 
 A padronização do nome do documento funciona da seguinte forma:
 
 Nome: Nesse momento o controller do upload de arquivos verifica se o nome possui 8 caracteres, sendo que os 3 primeiros devem conter apenas letras de A a Z, o quarto caractere deve ser um hífen e os 4 caracteres restantes devem ser apenas números de 0 a 9
 
-Section: Controller analiza se esse constitui de letras ou números, apenas isso é o suficiente para aprovação.
+Section: Controller analisa se esse constitui de letras ou números, apenas isso é o suficiente para aprovação.
 
 Subsection: É feita uma análise para saber se este constitui apenas de números, caso seja, é aprovado.
 
 Bloco: É feita uma análise para saber se este constitui apenas de números, caso seja, é aprovado.
 
-Todos esse métodos possuem a propria variável de aprovação que pode ser verdadeira ou falsa. Caso algum dos elementos do nome do documento não esteja na padronização, sua respectiva variavel sera atribuida o valor falso o que enviará uma mensagem de erro para o front-end, mensagem essa que informará o usuario que as informações que inseriu estão incorretas. Se não houver nenhuma reprovação o arquivo é armazenado e o usuário é informado que a a operação foi um sucesso.
+Todos esse métodos possuem a própria variável de aprovação que pode ser verdadeira ou falsa. Caso algum dos elementos do nome do documento não esteja na padronização, sua respectiva variável será atribuída o valor falso o que enviará uma mensagem de erro para o front-end, mensagem essa que informará o usuário que as informações que inseriu estão incorretas. Se não houver nenhuma reprovação o arquivo é armazenado e o usuário é informado que a a operação foi um sucesso.
 
 -Teste Estrutural:
 
 A parte de teste estrutural foi feita como validação para a matéria de Testes de Software, onde era necessário que uma classe de teste fosse utilizada para testar uma funcionalidade do projeto.
 
-Para isso, resolvi testar a função de validação do nome do documento da classe FileUploadController(comentada a pouco), ja que essa funcionalidae foi criada por mim. A classe de teste envia para a classe de upload valores de nomes de documentos, de cada nome era esperado sucesso ou falhar. Exemplo:
+Para isso, resolvi testar a função de validação do nome do documento da classe FileUploadController(comentada a pouco), já que essa funcionalidade foi criada por mim. A classe de teste envia para a classe de upload valores de nomes de documentos, de cada nome era esperado sucesso ou falhar. Exemplo:
  Caso o nome "Abc-1234-a1-00-11" fosse aceito, o teste era um sucesso, pois esse tipo de formato no nome do documento é o correto.
  Caso o nome "FFFF-333-a1-aa-bb" fosse recusado, o teste era um sucesso pois esse nome está fora da formatação.
 
 -Notificação de sucesso ou falha:
 
- Na tela de upload do aplicativo, há um script esperando uma resposta do controller do upload de arquivos. Caso o upload seja um sucesso, o controller enviará a informação "ok" ou "error" através do model. Recebido esse model, o front analisará qual das opções recebeu, caso receba ok, informará, através de uma notificação que o upload foi um sucesso, do contrário, finromará que ocorreu um erro e informará que o usuário deve verificar o nome do documento e verificar que deve condizer com a formatPara ação oficial.
+ Na tela de upload do aplicativo, há um script esperando uma resposta do controller do upload de arquivos. Caso o upload seja um sucesso, o controller enviará a informação "ok" ou "error" através do model. Recebido esse model, o front analisará qual das opções recebeu, caso receba ok, informará, através de uma notificação que o upload foi um sucesso, do contrário, informara que ocorreu um erro e informará que o usuário deve verificar o nome do documento e verificar que deve condizer com a formatação oficial.
 
 Hard Skills
 
-PostgreSQL-construção do banco de dados.
-Java- construção dos parâmetros de validação, conversão e notificação.
-
+PostgreSQL-sei fazer com autonomia.
+Java-sei fazer com autonomia.
 
 Soft Skills
 
 Perseverança: como não conseguimos validar as 2 primeiras entregas, precisamos nos dedicar ao máximo para validar as 2 últimas.
+Autonomia: como cada membro do time se ocupou com uma tarefa, muitas vezes a entrega de uma funcinalidade dependia exclusivamente de mim sem poder contar com ajuda de terceiros.
 
 
 
 ### Em 2022-1
-O primeiro projeto de API a ser feito apos EAD teve como empresa parceira, novamente, a Embraer. A necessidade dessa vez envovlia o armazenamento de documentos chamados FOLs(documentos referentes as aeronaves adquiridas pelo usuario) assim como notificacao dos usuarios do aplicativo que novos documentos haviam sido criados. Para isso nossa equipe desenvolveu o aplicativo Brisk, que permitiria com que os usuarios visualizassem as FOLs de qualquer uma de suas aeronaves e ainda geraria relatorios de quantos usuarios vizualizaram esses documentos.
+O primeiro projeto de API a ser feito apos EAD teve como empresa parceira, novamente, a Embraer. A necessidade dessa vez envolvia o armazenamento de documentos chamados FOLs(documentos referentes as aeronaves adquiridas pelo usuário) assim como notificação dos usuários do aplicativo que novos documentos haviam sido criados. Para isso nossa equipe desenvolveu o aplicativo Brisk, que permitiria com que os usuários visualizassem as FOLs de qualquer uma de suas aeronaves e ainda geraria relatórios de quantos usuários visualizaram esses documentos.
 
 [GIT]([https://github.com/AirghostTeamAPI]) 
 
 ![image](https://user-images.githubusercontent.com/65372142/171982689-6b84e7a9-3944-43dc-9a27-0ab96c1e2935.png)
 
 Tecnologias Utilizadas
-Javascript: Utilizado para a construcao do Front-End, ou seja, as telas que o usuario utilizaria para navegar pelo applicativo
-Typescript: Construcao do Back-End com todas as requisicoes de cadastros, notificacoes e movimentacao dos documentos
-Node.js: Permitiu execussao dos codigos em javascript idependente se estivesse no navegador web, muito util tendo em vista que deveria ser executavel tanto na pagina web quanto no aplicativo
-React Native: Estrutura principal de construcao das telas
-MongoDB: Banco de dados utilizado para armazenamento das informacoes de usuarios e FOLs
+Java script: Utilizado para a construção do Front-End, ou seja, as telas que o usuário utilizaria para navegar pelo aplicativo
+Typescript: Construção do Back-End com todas as requisições de cadastros, notificações e movimentação dos documentos
+Node.js: Permitiu execução dos códigos em Java script independente se estivesse no navegador web, muito útil tendo em vista que deveria ser executável tanto na página web quanto no aplicativo
+React Native: Estrutura principal de construção das telas
+MongoDB: Banco de dados utilizado para armazenamento das informações de usuários e FOLs
 
-Contribuicoes pessoais
+Contribuições pessoais
 
-Login de Usuario
+Login de Usuário
 
-O login foi feito na classe index.js da pasta login do nosso back end. Primeiramente o usuario deve inserir suas credenciais de login e senha e pressionar o botao de login que buscara no banco de dados se esse usuario existe, permitindo sua entrada caso afirmativo e proibindo sua entrada caso contratio. Nessa mesma tela e criado um token para o usuario que armazenara informacoes como o fato de ter feito login e as notificacoes que recebera. 
+O login foi feito na classe index.js da pasta login do nosso back end. Primeiramente o usuário deve inserir suas credenciais de login e senha e pressionar o botão de login que buscara no banco de dados se esse usuário existe, permitindo sua entrada caso afirmativo e proibindo sua entrada caso contrário. Nessa mesma tela e criado um token para o usuário que armazenara informações como o fato de ter feito login e as notificações que recebera. 
 
 Leitura de PDF
-A pagina de exibicao de pdf possui um metodo de retorno que exibira a FOL que o usuario deseja, para isso e necessario retornar uma pagina especifica de um documento
+A página de exibição de pdf possui um método de retorno que exibira a FOL que o usuário deseja, para isso e necessário retornar uma página especifica de um documento
 
-Com o uso de funcoes Axies serao retornados opcoes de mostrar as todas as FOLs de um usuario assim como filtrar de acordo com sua categoria ou palavras chaves referentes a seu conteudo
+Com o uso de funções Axios serão retornados opções de mostrar as todas as FOLs de um usuário assim como filtrar de acordo com sua categoria ou palavras chaves referentes a seu conteúdo
 
-Finalmente, a a funcao return servira para retornar o PDF na pagina da FOL desejada pelo usuario no for
+Finalmente, a função returno servira para retornar o PDF na pagina da FOL desejada pelo usuário no for
 
-Grafico de Alcance das FOLs
-O grafico foi feita armazenando, em variaveis, informacoes do banco de dados obtidas atraves de uma rota do axios, variaveis essas que se tratam de quantidade de usuarios notificados da criacao de uma FOL e usuarios que leram essa notificacao. Essas, em seguida, sao enviadas para um retorno em js que construira um grafico com informando a quantidade de usuarios que leram a informacao e a quantidade de usuarios que nao leram(feito atraves da diferenca entre total de usuarios que receberam a notificacao e o total de usuarios que leram)
+Gráfico de Alcance das FOLs
+O gráfico foi feita armazenando, em variáveis, informações do banco de dados obtidas através de uma rota do axios, variáveis essas que se tratam de quantidade de usuários notificados da criação de uma FOL e usuários que leram essa notificação. Essas, em seguida, são enviadas para um retorno em js que construirá um gráfico com informando a quantidade de usuários que leram a informacao e a quantidade de usuários que não leram(feito através da diferença entre total de usuários que receberam a notificação e o total de usuários que leram)
 
 ### Em 2022-2
 Mesmo formato 
@@ -278,6 +278,16 @@ Projeto do qual mais me destaquei no meu primeiro estágio. Requereu muito do me
 
 -Linguagem Java. 
 Primeira linguagem nova que eu aprendi após 3 anos de C# e que me foi muito útil em diversos projetos da faculdade.
+
+Hard Skills
+
+PostgreSQL-sei fazer com autonomia.
+Java-sei fazer com autonomia.
+
+Soft Skills
+
+Perseverança: como não conseguimos validar as 2 primeiras entregas, precisamos nos dedicar ao máximo para validar as 2 últimas.
+Autonomia: como cada membro do time se ocupou com uma tarefa, muitas vezes a entrega de uma funcinalidade dependia exclusivamente de mim sem poder contar com ajuda de terceiros.
   
 ## Contatos
 * [GIT](https://github.com/Felipe-Silva2002 | https://github.com/Ffelipe-Ssilva)
