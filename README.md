@@ -254,7 +254,7 @@ Contribuicoes pessoais
 
 Login de Usuario
 
-O login foi feito na classe index.js da pasta login do nosso back end. Primeiramente o usuario deve inserir suas credenciais de login e senha e pressionar o botao de login, nessa mesma tela e criado um token para o usuario que armazenara informacoes como o fato de ter feito login e as notificacoes que recebera
+O login foi feito na classe index.js da pasta login do nosso back end. Primeiramente o usuario deve inserir suas credenciais de login e senha e pressionar o botao de login que buscara no banco de dados se esse usuario existe, permitindo sua entrada caso afirmativo e proibindo sua entrada caso contratio. Nessa mesma tela e criado um token para o usuario que armazenara informacoes como o fato de ter feito login e as notificacoes que recebera. 
 
 Leitura de PDF
 
