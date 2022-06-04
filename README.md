@@ -250,6 +250,11 @@ Node.js: Permitiu execussao dos codigos em javascript idependente se estivesse n
 React Native: Estrutura principal de construcao das telas
 MongoDB: Banco de dados utilizado para armazenamento das informacoes de usuarios e FOLs
 
+Contribuicoes pessoais
+Login de Usuario
+Leitura de PDF
+Grafico de Alcance das FOLs
+
 ### Em 2022-2
 Mesmo formato 
 
