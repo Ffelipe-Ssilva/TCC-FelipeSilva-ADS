@@ -257,7 +257,10 @@ Login de Usuario
 O login foi feito na classe index.js da pasta login do nosso back end. Primeiramente o usuario deve inserir suas credenciais de login e senha e pressionar o botao de login, nessa mesma tela e criado um token para o usuario que armazenara informacoes como o fato de ter feito login e as notificacoes que recebera
 
 Leitura de PDF
+
+
 Grafico de Alcance das FOLs
+O grafico foi feita armazenando, em variaveis, informacoes do banco de dados obtidas atraves de uma rota do axios, variaveis essas que se tratam de quantidade de usuarios notificados da criacao de uma FOL e usuarios que leram essa notificacao. Essas, em seguida, sao enviadas para um retorno em js que construira um grafico com informando a quantidade de usuarios que leram a informacao e a quantidade de usuarios que nao leram(feito atraves da diferenca entre total de usuarios que receberam a notificacao e o total de usuarios que leram)
 
 ### Em 2022-2
 Mesmo formato 
