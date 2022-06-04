@@ -251,7 +251,11 @@ React Native: Estrutura principal de construcao das telas
 MongoDB: Banco de dados utilizado para armazenamento das informacoes de usuarios e FOLs
 
 Contribuicoes pessoais
+
 Login de Usuario
+
+O login foi feito na classe index.js da pasta login do nosso back end. Primeiramente o usuario deve inserir suas credenciais de login e senha e pressionar o botao de login, nessa mesma tela e criado um token para o usuario que armazenara informacoes como o fato de ter feito login e as notificacoes que recebera
+
 Leitura de PDF
 Grafico de Alcance das FOLs
 
