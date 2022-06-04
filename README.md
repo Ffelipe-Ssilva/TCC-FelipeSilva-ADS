@@ -281,13 +281,12 @@ Primeira linguagem nova que eu aprendi após 3 anos de C# e que me foi muito út
 
 Hard Skills
 
-PostgreSQL-sei fazer com autonomia.
-Java-sei fazer com autonomia.
+Typescrpt-sei fazer com ajuda.
+Javascript-sei fazer com ajuda.
 
 Soft Skills
 
-Perseverança: como não conseguimos validar as 2 primeiras entregas, precisamos nos dedicar ao máximo para validar as 2 últimas.
-Autonomia: como cada membro do time se ocupou com uma tarefa, muitas vezes a entrega de uma funcinalidade dependia exclusivamente de mim sem poder contar com ajuda de terceiros.
+Sociabilidade: como retornei presencialmente na faculdade, me vi na obrigacao de aprimorar minhas habilidades sociais para ter uma boa interação com a equipe.
   
 ## Contatos
 * [GIT](https://github.com/Felipe-Silva2002 | https://github.com/Ffelipe-Ssilva)
