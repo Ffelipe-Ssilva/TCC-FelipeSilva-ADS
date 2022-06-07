@@ -265,29 +265,34 @@ Finalmente, a função returno servira para retornar o PDF na pagina da FOL dese
 
 Gráfico de Alcance das FOLs
 O gráfico foi feita armazenando, em variáveis, informações do banco de dados obtidas através de uma rota do axios, variáveis essas que se tratam de quantidade de usuários notificados da criação de uma FOL e usuários que leram essa notificação. Essas, em seguida, são enviadas para um retorno em js que construirá um gráfico com informando a quantidade de usuários que leram a informacao e a quantidade de usuários que não leram(feito através da diferença entre total de usuários que receberam a notificação e o total de usuários que leram)
+  
+Hard Skills:
+
+Typescript-sei fazer com ajuda.
+Javascript-sei fazer com ajuda.
+
+Soft Skills:
+
+Sociabilidade-como retornei presencialmente na faculdade, me vi na obrigacao de aprimorar minhas habilidades sociais para ter uma boa interação com a equipe.
+  
 
 ### Em 2022-2
 Mesmo formato 
 
 ## Meus Principais Conhecimentos
 -Análise e Armazenamento de Dados.
+
 Área da tecnologia do qual sempre tive afinidade e também muitos contatos que poderiam me auxiliar. Matéria na qual mais me destaquei durante o Médio Técnico.
 
 -Tecnologia de Chatbot.
+
 Projeto do qual mais me destaquei no meu primeiro estágio. Requereu muito do meu conhecimento de banco de dados para construção de árvores de decisão. Apresentei, na FATEC, uma palestra com esse tema, inclusive.
 
 -Linguagem Java. 
+
 Primeira linguagem nova que eu aprendi após 3 anos de C# e que me foi muito útil em diversos projetos da faculdade.
 
-Hard Skills
 
-Typescrpt-sei fazer com ajuda.
-Javascript-sei fazer com ajuda.
-
-Soft Skills
-
-Sociabilidade: como retornei presencialmente na faculdade, me vi na obrigacao de aprimorar minhas habilidades sociais para ter uma boa interação com a equipe.
-  
 ## Contatos
 * [GIT](https://github.com/Felipe-Silva2002 | https://github.com/Ffelipe-Ssilva)
 * [LinkedIn](https://www.linkedin.com/in/felipe-silva-13b3b61a0)
