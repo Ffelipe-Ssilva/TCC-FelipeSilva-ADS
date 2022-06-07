@@ -269,6 +269,7 @@ O gráfico foi feita armazenando, em variáveis, informações do banco de dados
 Hard Skills:
 
 Typescript-sei fazer com ajuda.
+
 Javascript-sei fazer com ajuda.
 
 Soft Skills:
