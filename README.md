@@ -79,9 +79,9 @@ PostgreSQL - Sei fazer com autonomia.
 Figma - Sei fazer com ajuda.
 
 #### Soft Skills
-Controle das emoções - Devido ao fato de, em determinado ponto do desenvolvimento, termos que refazer variass funcionalidades do aplicativo, foi necessário resiliência para concertar essas funcionalidades a fim de entregar o projeto a tempo.
+Controle das emoções - Devido ao fato de, em determinado ponto do desenvolvimento, necessitarmos de refazer varias funcionalidades do aplicativo, foi necessário resiliência para concerta-las a fim de entregar o projeto a tempo.
 
-Gerenciamento do tempo - Mesmo estando envolvido em projetos no estágio, não podia deixar de auxiliar a equipe como fosse necessário.
+Gerenciamento do tempo - Mesmo estando envolvido em projetos no estágio, não podia deixar de auxiliar a equipe quando necessário.
 
 
 ### Em 2021-1
@@ -261,7 +261,7 @@ A página de exibição de pdf possui um método de retorno que exibira a FOL qu
 
 Com o uso de funções Axios serão retornados opções de mostrar as todas as FOLs de um usuário assim como filtrar de acordo com sua categoria ou palavras chaves referentes a seu conteúdo
 
-Finalmente, a função returno servira para retornar o PDF na pagina da FOL desejada pelo usuário no for
+Finalmente, a função retorno servira para retornar o PDF na pagina da FOL desejada pelo usuário no for
 
 Gráfico de Alcance das FOLs
 O gráfico foi feita armazenando, em variáveis, informações do banco de dados obtidas através de uma rota do axios, variáveis essas que se tratam de quantidade de usuários notificados da criação de uma FOL e usuários que leram essa notificação. Essas, em seguida, são enviadas para um retorno em js que construirá um gráfico com informando a quantidade de usuários que leram a informacao e a quantidade de usuários que não leram(feito através da diferença entre total de usuários que receberam a notificação e o total de usuários que leram)
@@ -274,11 +274,51 @@ Javascript-sei fazer com ajuda.
 
 Soft Skills:
 
-Sociabilidade-como retornei presencialmente na faculdade, me vi na obrigacao de aprimorar minhas habilidades sociais para ter uma boa interação com a equipe.
+Sociabilidade-como retornei presencialmente na faculdade, me vi na obrigação de aprimorar minhas habilidades sociais para ter uma boa interação com a equipe.
   
 
 ### Em 2022-2
-Mesmo formato 
+O projeto de API do último semestre teve como empresa parceira a Visiona, especialisada em reconhecimento de imagens e satélites. A proposta desse semestre foi diferente dos demais, pois o cliente ja possuia um aplicativo funcional e o desafio sera adicionar funcionalidades no mesmo. O programa era responsavel por fazer o calculo de quantos graos de soja que um agricultor possuia em media, para que assim pudessem ser trazidas estatisticas que auxiliassem esse agricultor na tomada de decisoes para sua colheita. O alicativo, porem, podia ser melhorado ao implementar uma Inteligencia artificial(IA) que, com apenas uma foto de uma planta de soja, pudesse, automaticamente, trazer as informacoes necessarias sobre ela, sem a necessidade do agricultor contar por si so.
+
+[GIT]([https://github.com/AirghostTeamAPI]) 
+
+![image](https://user-images.githubusercontent.com/65372142/171982689-6b84e7a9-3944-43dc-9a27-0ab96c1e2935.png)
+
+Tecnologias Utilizadas
+Java script: Utilizado para a construção do Front-End, ou seja, as telas que o usuário utilizaria para navegar pelo aplicativo
+Typescript: Construção do Back-End com todas as requisições de cadastros, notificações e movimentação dos documentos
+Node.js: Permitiu execução dos códigos em Java script independente se estivesse no navegador web, muito útil tendo em vista que deveria ser executável tanto na página web quanto no aplicativo
+React Native: Estrutura principal de construção das telas
+MongoDB: Banco de dados utilizado para armazenamento das informações de usuários e FOLs
+
+Contribuições pessoais
+
+Login de Usuário
+
+O login foi feito na classe index.js da pasta login do nosso back end. Primeiramente o usuário deve inserir suas credenciais de login e senha e pressionar o botão de login que buscara no banco de dados se esse usuário existe, permitindo sua entrada caso afirmativo e proibindo sua entrada caso contrário. Nessa mesma tela e criado um token para o usuário que armazenara informações como o fato de ter feito login e as notificações que recebera. 
+
+Leitura de PDF
+A página de exibição de pdf possui um método de retorno que exibira a FOL que o usuário deseja, para isso e necessário retornar uma página especifica de um documento
+
+Com o uso de funções Axios serão retornados opções de mostrar as todas as FOLs de um usuário assim como filtrar de acordo com sua categoria ou palavras chaves referentes a seu conteúdo
+
+Finalmente, a função retorno servira para retornar o PDF na pagina da FOL desejada pelo usuário no for
+
+Gráfico de Alcance das FOLs
+O gráfico foi feita armazenando, em variáveis, informações do banco de dados obtidas através de uma rota do axios, variáveis essas que se tratam de quantidade de usuários notificados da criação de uma FOL e usuários que leram essa notificação. Essas, em seguida, são enviadas para um retorno em js que construirá um gráfico com informando a quantidade de usuários que leram a informacao e a quantidade de usuários que não leram(feito através da diferença entre total de usuários que receberam a notificação e o total de usuários que leram)
+  
+Hard Skills:
+
+Typescript-sei fazer com ajuda.
+
+Javascript-sei fazer com ajuda.
+
+Soft Skills:
+
+Sociabilidade-como retornei presencialmente na faculdade, me vi na obrigação de aprimorar minhas habilidades sociais para ter uma boa interação com a equipe.
+  
+
+
 
 ## Meus Principais Conhecimentos
 -Análise e Armazenamento de Dados.
