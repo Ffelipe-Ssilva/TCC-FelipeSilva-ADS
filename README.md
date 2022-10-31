@@ -285,8 +285,10 @@ O projeto de API do último semestre teve como empresa parceira a Visiona, espec
 ![image](https://user-images.githubusercontent.com/65372142/171982689-6b84e7a9-3944-43dc-9a27-0ab96c1e2935.png)
 
 Tecnologias Utilizadas
-Tensorflow
-Typescript
+Tensorflow - Biblioteca de inteligencia artificial utilizada para fazer o reconhecimento de imagem
+Python - Utilizado para implementacao da IA
+Firebase - Banco de dados utilizado para o armazenamento de informacoes, como por exemplo os registros da IA
+Typescript -
 
 Contribuições pessoais
 
@@ -296,13 +298,16 @@ Para que o aplicativo pudesse identificar a quantidade de graoes nas vagens pres
 Transformacao da imagem de RGB para Binario.
 Quando o usuario fotografua sua amostra de soja, a imagem estara em formato Red, Green, Blue(RGB) que significa Vermelho, Verde e Azul. Essa composicao de cores e o que permite vermos imagens digitais coloridas como as conhecemos. Para a inteligencia artificial, esse formato nao e favoravel, pois sao informacoes muito complexas, com isso em mente, foi criado um script que transforma a imgem colorida em binaria(ou um pixel da imagem fica branco ou fica preto). Com esse metodo a imagem se torna mais simples de ser lida e com formas mais rusticas.
 
-Termo de abertura
+Treino da IA para reconhecimento de imagem.
+Para que a Inteligencia artificial fosse capaz de reconhecer os graos de soja do usuario, seria, primeiramente, necessario uqe ela soubesse como se parecem e como identificalos. Para isso o projeto conta com scripts e imagens de treinamento onde a IA inicialmente recebe imagens que ja
 
 Hard Skills:
 
-Typescript-sei fazer com ajuda.
+Typescript - sei fazer com ajuda.
 
-Python-sei fazer com autonomia.
+Tensorflow - sei fazer com ajuda.
+
+Python - sei fazer com autonomia.
 
 Soft Skills:
 
