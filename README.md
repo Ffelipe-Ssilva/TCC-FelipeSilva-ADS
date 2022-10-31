@@ -257,13 +257,13 @@ Login de Usuário
 O login foi feito na classe index.js da pasta login do nosso back end. Primeiramente o usuário deve inserir suas credenciais de login e senha e pressionar o botão de login que buscara no banco de dados se esse usuário existe, permitindo sua entrada caso afirmativo e proibindo sua entrada caso contrário. Nessa mesma tela e criado um token para o usuário que armazenara informações como o fato de ter feito login e as notificações que recebera. 
 
 Leitura de PDF
-A página de exibição de pdf possui um método de retorno que exibira a FOL que o usuário deseja, para isso e necessário retornar uma página especifica de um documento
 
-Com o uso de funções Axios serão retornados opções de mostrar as todas as FOLs de um usuário assim como filtrar de acordo com sua categoria ou palavras chaves referentes a seu conteúdo
-
+A página de exibição de pdf possui um método de retorno que exibira a FOL que o usuário deseja, para isso e necessário retornar uma página especifica de um documento.
+Com o uso de funções Axios serão retornados opções de mostrar as todas as FOLs de um usuário assim como filtrar de acordo com sua categoria ou palavras chaves referentes a seu conteúdo.
 Finalmente, a função retorno servira para retornar o PDF na pagina da FOL desejada pelo usuário no for
 
 Gráfico de Alcance das FOLs
+
 O gráfico foi feita armazenando, em variáveis, informações do banco de dados obtidas através de uma rota do axios, variáveis essas que se tratam de quantidade de usuários notificados da criação de uma FOL e usuários que leram essa notificação. Essas, em seguida, são enviadas para um retorno em js que construirá um gráfico com informando a quantidade de usuários que leram a informacao e a quantidade de usuários que não leram(feito através da diferença entre total de usuários que receberam a notificação e o total de usuários que leram)
   
 Hard Skills:
@@ -280,42 +280,33 @@ Sociabilidade-como retornei presencialmente na faculdade, me vi na obrigação d
 ### Em 2022-2
 O projeto de API do último semestre teve como empresa parceira a Visiona, especialisada em reconhecimento de imagens e satélites. A proposta desse semestre foi diferente dos demais, pois o cliente ja possuia um aplicativo funcional e o desafio sera adicionar funcionalidades no mesmo. O programa era responsavel por fazer o calculo de quantos graos de soja que um agricultor possuia em media, para que assim pudessem ser trazidas estatisticas que auxiliassem esse agricultor na tomada de decisoes para sua colheita. O alicativo, porem, podia ser melhorado ao implementar uma Inteligencia artificial(IA) que, com apenas uma foto de uma planta de soja, pudesse, automaticamente, trazer as informacoes necessarias sobre ela, sem a necessidade do agricultor contar por si so.
 
-[GIT]([https://github.com/AirghostTeamAPI]) 
+[GIT]([https://github.com/medrenan/SoyIA) 
 
 ![image](https://user-images.githubusercontent.com/65372142/171982689-6b84e7a9-3944-43dc-9a27-0ab96c1e2935.png)
 
 Tecnologias Utilizadas
-Java script: Utilizado para a construção do Front-End, ou seja, as telas que o usuário utilizaria para navegar pelo aplicativo
-Typescript: Construção do Back-End com todas as requisições de cadastros, notificações e movimentação dos documentos
-Node.js: Permitiu execução dos códigos em Java script independente se estivesse no navegador web, muito útil tendo em vista que deveria ser executável tanto na página web quanto no aplicativo
-React Native: Estrutura principal de construção das telas
-MongoDB: Banco de dados utilizado para armazenamento das informações de usuários e FOLs
+Tensorflow
+Typescript
 
 Contribuições pessoais
 
-Login de Usuário
+Estudo de processamento de imagem com python
+Para que o aplicativo pudesse identificar a quantidade de graoes nas vagens presentes nas imgens fornecidas pelos usuarios, seria necessario, logicamente, possuir um istema para tal. A tecnologia de Inteligencia Artificial deveria ser utulizada para esta frente, portanto foram feitos estudos, em sites com tutoriais, videos instrutivos e fains, para que a tecnologia pudesse ser utilizada da forma mais eficiente possivel.
 
-O login foi feito na classe index.js da pasta login do nosso back end. Primeiramente o usuário deve inserir suas credenciais de login e senha e pressionar o botão de login que buscara no banco de dados se esse usuário existe, permitindo sua entrada caso afirmativo e proibindo sua entrada caso contrário. Nessa mesma tela e criado um token para o usuário que armazenara informações como o fato de ter feito login e as notificações que recebera. 
+Transformacao da imagem de RGB para Binario.
+Quando o usuario fotografua sua amostra de soja, a imagem estara em formato Red, Green, Blue(RGB) que significa Vermelho, Verde e Azul. Essa composicao de cores e o que permite vermos imagens digitais coloridas como as conhecemos. Para a inteligencia artificial, esse formato nao e favoravel, pois sao informacoes muito complexas, com isso em mente, foi criado um script que transforma a imgem colorida em binaria(ou um pixel da imagem fica branco ou fica preto). Com esse metodo a imagem se torna mais simples de ser lida e com formas mais rusticas.
 
-Leitura de PDF
-A página de exibição de pdf possui um método de retorno que exibira a FOL que o usuário deseja, para isso e necessário retornar uma página especifica de um documento
+Termo de abertura
 
-Com o uso de funções Axios serão retornados opções de mostrar as todas as FOLs de um usuário assim como filtrar de acordo com sua categoria ou palavras chaves referentes a seu conteúdo
-
-Finalmente, a função retorno servira para retornar o PDF na pagina da FOL desejada pelo usuário no for
-
-Gráfico de Alcance das FOLs
-O gráfico foi feita armazenando, em variáveis, informações do banco de dados obtidas através de uma rota do axios, variáveis essas que se tratam de quantidade de usuários notificados da criação de uma FOL e usuários que leram essa notificação. Essas, em seguida, são enviadas para um retorno em js que construirá um gráfico com informando a quantidade de usuários que leram a informacao e a quantidade de usuários que não leram(feito através da diferença entre total de usuários que receberam a notificação e o total de usuários que leram)
-  
 Hard Skills:
 
 Typescript-sei fazer com ajuda.
 
-Javascript-sei fazer com ajuda.
+Python-sei fazer com autonomia.
 
 Soft Skills:
 
-Sociabilidade-como retornei presencialmente na faculdade, me vi na obrigação de aprimorar minhas habilidades sociais para ter uma boa interação com a equipe.
+Adaptabilidade - Como identificacao de imagens era uma tecnologia nova, houve a necessidade de se adaptar e aprender sobre.
   
 
 
