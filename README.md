@@ -237,7 +237,7 @@ Autonomia: como cada membro do time se ocupou com uma tarefa, muitas vezes a ent
 
 
 ### Em 2022-1
-O primeiro projeto de API a ser feito apos EAD teve como empresa parceira a Visiona, focada no ramo de image. A necessidade dessa vez envolvia o armazenamento de documentos chamados FOLs(documentos referentes as aeronaves adquiridas pelo usuário) assim como notificação dos usuários do aplicativo que novos documentos haviam sido criados. Para isso nossa equipe desenvolveu o aplicativo Brisk, que permitiria com que os usuários visualizassem as FOLs de qualquer uma de suas aeronaves e ainda geraria relatórios de quantos usuários visualizaram esses documentos.
+O primeiro projeto de API a ser feito apos EAD teve como empresa parceira a Embraer. A necessidade dessa vez envolvia o armazenamento de documentos chamados FOLs(documentos referentes as aeronaves adquiridas pelo usuário) assim como notificação dos usuários do aplicativo que novos documentos haviam sido criados. Para isso nossa equipe desenvolveu o aplicativo Brisk, que permitiria com que os usuários visualizassem as FOLs de qualquer uma de suas aeronaves e ainda geraria relatórios de quantos usuários visualizaram esses documentos.
 
 [GIT]([https://github.com/AirghostTeamAPI]) 
 
