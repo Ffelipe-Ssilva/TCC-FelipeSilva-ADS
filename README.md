@@ -276,30 +276,29 @@ Soft Skills:
 
 Sociabilidade-como retornei presencialmente na faculdade, me vi na obrigação de aprimorar minhas habilidades sociais para ter uma boa interação com a equipe.
   
-
 ### Em 2022-2
-O projeto de API do último semestre teve como empresa parceira a Visiona, especialisada em reconhecimento de imagens e satélites. A proposta desse semestre foi diferente dos demais, pois o cliente ja possuia um aplicativo funcional e o desafio sera adicionar funcionalidades no mesmo. O programa era responsavel por fazer o calculo de quantos graos de soja que um agricultor possuia em media, para que assim pudessem ser trazidas estatisticas que auxiliassem esse agricultor na tomada de decisoes para sua colheita. O alicativo, porem, podia ser melhorado ao implementar uma Inteligencia artificial(IA) que, com apenas uma foto de uma planta de soja, pudesse, automaticamente, trazer as informacoes necessarias sobre ela, sem a necessidade do agricultor contar por si so.
+O projeto de API do último semestre teve como empresa parceira a Visiona, especializada em reconhecimento de imagens e satélites. A proposta desse semestre foi diferente dos demais, pois, o cliente já possuía um aplicativo funcional e o desafio sera adicionar funcionalidades no mesmo. O programa era responsável por fazer o cálculo de quantos grãos de soja que um agricultor possuía em média, para que assim pudessem ser trazidas estatísticas que auxiliassem esse profissional na tomada de decisões para sua colheita. O aplicativo, porem, podia ser melhorado ao implementar uma inteligência artificial(IA) que, com apenas uma foto de uma planta de soja, pudesse, automaticamente, trazer as informações necessárias sobre ela, sem a necessidade do agricultor contar por si só.
 
-[GIT]([https://github.com/medrenan/SoyIA) 
+[GIT]([https://github.com/medrenan/SoyIA)
 
 ![image](https://user-images.githubusercontent.com/65372142/171982689-6b84e7a9-3944-43dc-9a27-0ab96c1e2935.png)
 
 Tecnologias Utilizadas
-Tensorflow - Biblioteca de inteligencia artificial utilizada para fazer o reconhecimento de imagem
-Python - Utilizado para implementacao da IA
-Firebase - Banco de dados utilizado para o armazenamento de informacoes, como por exemplo os registros da IA
-Typescript -
+Tensorflow - Biblioteca de inteligência artificial utilizada para fazer o reconhecimento de imagem.
+Python - Utilizado para implementação da IA
+Firebase - Banco de dados utilizado para o armazenamento de informações, como, por exemplo, os registros da IA
+Typescript - Responsável pela construção dos controladores que chamam os métodos.
 
 Contribuições pessoais
 
-Estudo de processamento de imagem com python
-Para que o aplicativo pudesse identificar a quantidade de graoes nas vagens presentes nas imgens fornecidas pelos usuarios, seria necessario, logicamente, possuir um istema para tal. A tecnologia de Inteligencia Artificial deveria ser utulizada para esta frente, portanto foram feitos estudos, em sites com tutoriais, videos instrutivos e fains, para que a tecnologia pudesse ser utilizada da forma mais eficiente possivel.
+Estudo de processamento de imagem com python.
+Para que o aplicativo fosse capaz de identificar a quantidade de grãos nas vagens, seria necessário, logicamente, possuir um identificador de imagens para tal fim. Para este objetivo, era necessário utilizar a tecnologia de inteligência artificial, portanto, foram feitos estudos, em sites com tutoriais, vídeos instrutivos e fains, para que o sistema pudesse ser usada de forma eficiente.
 
-Transformacao da imagem de RGB para Binario.
-Quando o usuario fotografua sua amostra de soja, a imagem estara em formato Red, Green, Blue(RGB) que significa Vermelho, Verde e Azul. Essa composicao de cores e o que permite vermos imagens digitais coloridas como as conhecemos. Para a inteligencia artificial, esse formato nao e favoravel, pois sao informacoes muito complexas, com isso em mente, foi criado um script que transforma a imgem colorida em binaria(ou um pixel da imagem fica branco ou fica preto). Com esse metodo a imagem se torna mais simples de ser lida e com formas mais rusticas.
+Transformação da imagem de RGB para Binário.
+Quando o usuário fotografa sua amostra de soja, a imagem estará em formato Red, Green, Blue(RGB) que significa Vermelho, Verde e Azul. Essa composição de cores e o que permite vermos imagens digitais coloridas como as conhecemos. Para a inteligência artificial, esse formato não e favorável, pois, são informações muito complexas, com isso em mente, foi criado um script que transforma a imagem colorida em binaria(ou um ‘pixel’ da foto fica branco, ou fica preto). Com esse método a imagem se torna mais simples de ser lida e com formas mais rusticas.
 
 Treino da IA para reconhecimento de imagem.
-Para que a Inteligencia artificial fosse capaz de reconhecer os graos de soja do usuario, seria, primeiramente, necessario uqe ela soubesse como se parecem e como identificalos. Para isso o projeto conta com scripts e imagens de treinamento onde a IA inicialmente recebe imagens que ja
+Para que a inteligência artificial fosse capaz de reconhecer os grãos de soja do usuário, seria, primeiramente, necessário que ela soubesse como se parecem e como identificá-los. Para isso o projeto conta com scripts e imagens de treinamento. A IA inicialmente recebe imagens que já tiveram os grãos identificados e usa suas formas e localizações para los identificar nas imagens enviadas pelo usuário.
 
 Hard Skills:
 
@@ -311,10 +310,7 @@ Python - sei fazer com autonomia.
 
 Soft Skills:
 
-Adaptabilidade - Como identificacao de imagens era uma tecnologia nova, houve a necessidade de se adaptar e aprender sobre.
-  
-
-
+Adaptabilidade - Como identificação de imagens era uma tecnologia nova, houve a necessidade de se adaptar e aprender sobre.
 
 ## Meus Principais Conhecimentos
 -Análise e Armazenamento de Dados.
@@ -328,7 +324,6 @@ Projeto do qual mais me destaquei no meu primeiro estágio. Requereu muito do me
 -Linguagem Java. 
 
 Primeira linguagem nova que eu aprendi após 3 anos de C# e que me foi muito útil em diversos projetos da faculdade.
-
 
 ## Contatos
 * [GIT](https://github.com/Felipe-Silva2002 | https://github.com/Ffelipe-Ssilva)
