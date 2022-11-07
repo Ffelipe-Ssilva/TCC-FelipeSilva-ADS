@@ -281,7 +281,8 @@ O projeto de API do último semestre teve como empresa parceira a Visiona, espec
 
 [GIT]([https://github.com/medrenan/SoyIA)
 
-![image](https://user-images.githubusercontent.com/65372142/171982689-6b84e7a9-3944-43dc-9a27-0ab96c1e2935.png)
+![image](https://user-images.githubusercontent.com/65372142/200288942-ef2a3285-8d10-4fbb-889d-6dc27a5128d0.png)
+
 
 Tecnologias Utilizadas
 Tensorflow - Biblioteca de inteligência artificial utilizada para fazer o reconhecimento de imagem.
