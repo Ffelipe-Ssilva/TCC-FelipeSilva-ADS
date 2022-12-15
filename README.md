@@ -239,7 +239,7 @@ Autonomia: como cada membro do time se ocupou com uma tarefa, muitas vezes a ent
 ### Em 2022-1
 O primeiro projeto de API a ser feito apos EAD teve como empresa parceira a Embraer. A necessidade dessa vez envolvia o armazenamento de documentos chamados FOLs(documentos referentes as aeronaves adquiridas pelo usuário) assim como notificação dos usuários do aplicativo que novos documentos haviam sido criados. Para isso nossa equipe desenvolveu o aplicativo Brisk, que permitiria com que os usuários visualizassem as FOLs de qualquer uma de suas aeronaves e ainda geraria relatórios de quantos usuários visualizaram esses documentos.
 
-[GIT]([https://github.com/AirghostTeamAPI/BriskNotificationApp]) 
+[GIT](https://github.com/AirghostTeamAPI/BriskNotificationApp) 
 
 ![image](https://user-images.githubusercontent.com/65372142/171982689-6b84e7a9-3944-43dc-9a27-0ab96c1e2935.png)
 
@@ -279,7 +279,7 @@ Sociabilidade-como retornei presencialmente na faculdade, me vi na obrigação d
 ### Em 2022-2
 O projeto de API do último semestre teve como empresa parceira a Visiona, especializada em reconhecimento de imagens e satélites. A proposta desse semestre foi diferente dos demais, pois, o cliente já possuía um aplicativo funcional e o desafio sera adicionar funcionalidades no mesmo. O programa era responsável por fazer o cálculo de quantos grãos de soja que um agricultor possuía em média, para que assim pudessem ser trazidas estatísticas que auxiliassem esse profissional na tomada de decisões para sua colheita. O aplicativo, porem, podia ser melhorado ao implementar uma inteligência artificial(IA) que, com apenas uma foto de uma planta de soja, pudesse, automaticamente, trazer as informações necessárias sobre ela, sem a necessidade do agricultor contar por si só.
 
-[GIT]([https://github.com/medrenan/SoyIA)
+[GIT](https://github.com/medrenan/SoyIA)
 
 ![image](https://user-images.githubusercontent.com/65372142/200288942-ef2a3285-8d10-4fbb-889d-6dc27a5128d0.png)
 
